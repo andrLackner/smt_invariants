@@ -1,0 +1,24 @@
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for simpleloopV2
+% SZS output start Proof for simpleloopV2
+1. 0.0 = $difference($product(y,x),$product(y00,x00)) [input]
+2. ~0.0 = $difference($product($product(2.0,y),$product(x,0.5)),$product(y00,x00)) [input]
+3. ~0.0 = $sum($product($product(2.0,y),$product(x,0.5)),$uminus($product(y00,x00))) [theory normalization 2]
+4. 0.0 = $sum($product(y,x),$uminus($product(y00,x00))) [theory normalization 1]
+16. $product(X0,X1) = $product(X1,X0) [theory axiom 99]
+22. 0.0 != $sum($product($product(2.0,y),$product(x,0.5)),$uminus($product(y00,x00))) [flattening 3]
+23. 0.0 != $sum($product($product(2.0,y),$product(x,0.5)),$uminus($product(y00,x00))) [cnf transformation 22]
+24. 0.0 = $sum($product(y,x),$uminus($product(y00,x00))) [cnf transformation 4]
+25. 0.0 != $sum($product(y,x),$uminus($product(y00,x00))) [evaluation 23]
+26. 0.0 != $sum($product(y,x),$uminus($product(x00,y00))) [forward demodulation 25,16]
+27. 0.0 = $sum($product(y,x),$uminus($product(x00,y00))) [forward demodulation 24,16]
+28. $false [subsumption resolution 27,26]
+% SZS output end Proof for simpleloopV2
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 9d08e223 on 2021-01-26 16:29:53 +0000)
+% Termination reason: Refutation
+
+% Memory used [KB]: 4861
+% Time elapsed: 0.0000 s
+% ------------------------------
+% ------------------------------

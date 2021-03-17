@@ -1,0 +1,10 @@
+384476 Aborted by signal SIGINT on ./intcbrt/intcbrt_5.smt2
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 9d08e223 on 2021-01-26 16:29:53 +0000)
+% Termination reason: Unknown
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.214 s
+% ------------------------------
+% ------------------------------
