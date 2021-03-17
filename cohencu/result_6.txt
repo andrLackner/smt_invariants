@@ -4,7 +4,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 21236
+% Memory used [KB]: 18805
 % Time elapsed: 1.100 s
 % ------------------------------
 % ------------------------------

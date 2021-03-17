@@ -1,10 +1,8 @@
-% Time limit reached!
-% ------------------------------
+% Refutation not found, non-redundant clauses discarded% ------------------------------
 % Version: Vampire 4.5.1 (commit 9d08e223 on 2021-01-26 16:29:53 +0000)
-% Termination reason: Time limit
-% Termination phase: Saturation
+% Termination reason: Refutation not found, non-redundant clauses discarded
 
-% Memory used [KB]: 18421
-% Time elapsed: 1.100 s
+% Memory used [KB]: 18677
+% Time elapsed: 1.006 s
 % ------------------------------
 % ------------------------------

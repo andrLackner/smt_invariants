@@ -14,7 +14,11 @@
 (assert (= (- (* k k) (+ (* (* 9 n) c) (- (* 9 n) (- (* 5 k) (+ (* 18 c) 4))))) 0))
 (assert (= (+ (* n k) (- (- (* 2 n) k) (+ (* 3 c) 1))) 0))
 (assert (= (- (+ (* n n) n) (+ (* (/ 1 3) k) (/ 1 3))) 0))
-; negated invariant (after loop body execution)
+; invariant (after loop body execution)
+(assert (= (- (+ m 6) (- (* 6 (+ n 1)) 6)) 0))
+(assert (= (+ (* (+ n 1) (+ k m)) (- (- (* 2 (+ n 1)) (+ k m)) (+ (* 3 (+ c k)) 1))) 0))
+(assert (= (- (+ (* (+ n 1) (+ n 1)) (+ n 1)) (+ (* (/ 1 3) (+ k m)) (/ 1 3))) 0))
+; contradiction
 (assert (not (= (- (* (+ k m) (+ k m)) (+ (* (* 9 (+ n 1)) (+ c k)) (- (* 9 (+ n 1)) (- (* 5 (+ k m)) (+ (* 18 (+ c k)) 4))))) 0)))
 (check-sat)
 (exit)

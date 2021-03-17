@@ -12,7 +12,7 @@
 ; Invariant (before loop body execution)
 (assert (= (- y y00) 0))
 (assert (= (- (* q y00) (- (+ (* y00 q00) r) r00)) 0))
-; negated invariant (after loop body execution)
+; contradiction
 (assert (not (= (- (* (+ q 1) y00) (- (+ (* y00 q00) (- r y)) r00)) 0)))
 
 (check-sat)

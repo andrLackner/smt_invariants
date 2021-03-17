@@ -2,13 +2,13 @@
 % SZS status Unsatisfiable for eucliddiv_1
 % SZS output start Proof for eucliddiv_1
 1. 0.0 = $difference(y,y00) [input]
-3. ~0.0 = $difference(y,y00) [input]
-4. ~0.0 = $sum(y,$uminus(y00)) [theory normalization 3]
-6. 0.0 = $sum(y,$uminus(y00)) [theory normalization 1]
-25. 0.0 != $sum(y,$uminus(y00)) [flattening 4]
-26. 0.0 != $sum(y,$uminus(y00)) [cnf transformation 25]
-28. 0.0 = $sum(y,$uminus(y00)) [cnf transformation 6]
-31. $false [subsumption resolution 28,26]
+4. ~0.0 = $difference(y,y00) [input]
+5. ~0.0 = $sum(y,$uminus(y00)) [theory normalization 4]
+8. 0.0 = $sum(y,$uminus(y00)) [theory normalization 1]
+28. 0.0 != $sum(y,$uminus(y00)) [flattening 5]
+29. 0.0 != $sum(y,$uminus(y00)) [cnf transformation 28]
+32. 0.0 = $sum(y,$uminus(y00)) [cnf transformation 8]
+39. $false [subsumption resolution 32,29]
 % SZS output end Proof for eucliddiv_1
 % ------------------------------
 % Version: Vampire 4.5.1 (commit 9d08e223 on 2021-01-26 16:29:53 +0000)
