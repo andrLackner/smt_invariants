@@ -1,8 +1,0 @@
-% Refutation not found, non-redundant clauses discarded% ------------------------------
-% Version: Vampire 4.5.1 (commit 9d08e223 on 2021-01-26 16:29:53 +0000)
-% Termination reason: Refutation not found, non-redundant clauses discarded
-
-% Memory used [KB]: 38634
-% Time elapsed: 0.973 s
-% ------------------------------
-% ------------------------------
