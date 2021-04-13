@@ -2,7 +2,7 @@
 ; INVARIANTS:   y - y00
 ;               q*y00 - y00*q00 + r - r00
 ; RESULT:       refutation found in under 1 sec
-(set-logic QF_NRA)
+(set-logic NRA)
 (declare-const y Real)
 (declare-const q Real)
 (declare-const r Real)

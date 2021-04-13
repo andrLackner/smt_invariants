@@ -1,7 +1,7 @@
 ; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/singlepath.jl
 ; INVARIANTS:   r^2 - r00^2 - r + 2*x + r00 - 2*x00
 ; RESULT:       timed out
-(set-logic QF_NRA)
+(set-logic NRA)
 (declare-const r Real)
 (declare-const x Real)
 (declare-const x00 Real)

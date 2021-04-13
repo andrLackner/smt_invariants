@@ -4,7 +4,7 @@
 ;               n*k + 2*n - k - 3*c + 1
 ;               n^2 + n - 1//3*k + 1//3
 ; RESULT:       refutation found in under 1 sec
-(set-logic QF_NRA)
+(set-logic NRA)
 (declare-const m Real)
 (declare-const n Real)
 (declare-const c Real)

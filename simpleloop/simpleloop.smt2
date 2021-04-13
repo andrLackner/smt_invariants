@@ -1,7 +1,7 @@
 ; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/singlepath.jl
 ; Invariant:    y*x - y00*x00
 ; RESULT:       solve under one second
-(set-logic QF_NRA)
+(set-logic NRA)
 (declare-const y Real)
 (declare-const x Real)
 (declare-const x00 Real)
