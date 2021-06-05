@@ -1,0 +1,11 @@
+        String[] inputs = {
+                "y - y00",
+                "q*y00 - y00*q00 + r - r00"
+        };
+        String[] vars = {"y", "q", "r"};
+        StringBuilder builder = new StringBuilder();
+        Replacer[] repls = {
+            new Replacer("q", "q+1"),
+            new Replacer("r", "r-y"),
+        };
+        int negated = 2;

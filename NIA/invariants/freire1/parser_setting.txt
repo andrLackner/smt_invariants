@@ -1,0 +1,10 @@
+        String[] inputs = {
+                "r^2 - r00^2 - r + 2*x + r00 - 2*x00"
+        };
+        String[] vars = {"x", "r"};
+        StringBuilder builder = new StringBuilder();
+        Replacer[] repls = {
+            new Replacer("r", "r+1"),
+            new Replacer("x", "x-r"),
+        };
+        int negated = 1;

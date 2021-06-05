@@ -1,0 +1,41 @@
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on nia_eucliddiv_simple_v0
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for nia_eucliddiv_simple_v0
+% SZS output start Proof for nia_eucliddiv_simple_v0
+1. ? [X0 : $int,X2 : $int,X1 : $int] : (0 = $difference(X0,y00) & 0 = $difference($sum($difference($product(X1,y00),$product(y00,q00)),X2),r00) & (~0 = $difference(X0,y00) | ~0 = $difference($sum($difference($product($sum(X1,1),y00),$product(y00,q00)),$difference(X2,X0)),r00))) [input]
+2. ? [X0 : $int,X2 : $int,X1 : $int] : (0 = $sum(X0,$uminus(y00)) & 0 = $sum($sum($difference($product(X1,y00),$product(y00,q00)),X2),$uminus(r00)) & (~0 = $sum(X0,$uminus(y00)) | ~0 = $sum($sum($difference($product($sum(X1,1),y00),$product(y00,q00)),$difference(X2,X0)),$uminus(r00)))) [theory normalization 1]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 127]
+4. $sum(X0,$sum(X1,X2)) = $sum($sum(X0,X1),X2) [theory axiom 128]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 127]
+21. ? [X0 : $int,X2 : $int,X1 : $int] : (0 = $sum(X0,$uminus(y00)) & 0 = $sum($sum($sum($product(X1,y00),$uminus($product(y00,q00))),X2),$uminus(r00)) & (~0 = $sum(X0,$uminus(y00)) | ~0 = $sum($sum($sum($product($sum(X1,1),y00),$uminus($product(y00,q00))),$sum(X2,$uminus(X0))),$uminus(r00)))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum(X0,$uminus(y00)) & 0 = $sum($sum($sum($product(X2,y00),$uminus($product(y00,q00))),X1),$uminus(r00)) & (~0 = $sum(X0,$uminus(y00)) | ~0 = $sum($sum($sum($product($sum(X2,1),y00),$uminus($product(y00,q00))),$sum(X1,$uminus(X0))),$uminus(r00)))) [rectify 21]
+23. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum(X0,$uminus(y00)) & 0 = $sum($sum($sum($product(X2,y00),$uminus($product(y00,q00))),X1),$uminus(r00)) & (0 != $sum(X0,$uminus(y00)) | 0 != $sum($sum($sum($product($sum(X2,1),y00),$uminus($product(y00,q00))),$sum(X1,$uminus(X0))),$uminus(r00)))) [flattening 22]
+24. 0 != $sum($sum($sum($product($sum(sK2,1),y00),$uminus($product(y00,q00))),$sum(sK1,$uminus(sK0))),$uminus(r00)) | 0 != $sum(sK0,$uminus(y00)) [cnf transformation 23]
+25. 0 = $sum($sum($sum($product(sK2,y00),$uminus($product(y00,q00))),sK1),$uminus(r00)) [cnf transformation 23]
+26. 0 = $sum(sK0,$uminus(y00)) [cnf transformation 23]
+28. 0 != $sum($sum($sum($product($sum(sK2,1),y00),$uminus($product(y00,q00))),$sum(sK1,$uminus(sK0))),$uminus(r00)) [global subsumption 26,24]
+30. 1 <=> 0 = $sum(sK0,$uminus(y00)) [avatar definition]
+33. 1 [avatar split clause 26,30]
+687. 0 = $sum($sum(sK1,$sum($product(sK2,y00),$uminus($product(y00,q00)))),$uminus(r00)) [forward demodulation 25,3]
+688. 0 = $sum($sum(sK1,$sum($product(y00,sK2),$uminus($product(y00,q00)))),$uminus(r00)) [forward demodulation 687,14]
+735. 2 <=> 0 = $sum($sum(sK1,$sum($product(y00,sK2),$uminus($product(y00,q00)))),$uminus(r00)) [avatar definition]
+738. 2 [avatar split clause 688,735]
+833. 0 != $sum($sum($sum(sK1,$uminus(sK0)),$sum($product($sum(sK2,1),y00),$uminus($product(y00,q00)))),$uminus(r00)) [forward demodulation 28,3]
+834. 0 != $sum($sum(sK1,$sum($uminus(sK0),$sum($product($sum(sK2,1),y00),$uminus($product(y00,q00))))),$uminus(r00)) [forward demodulation 833,4]
+835. 0 != $sum($sum(sK1,$sum($uminus(sK0),$sum($uminus($product(y00,q00)),$product($sum(sK2,1),y00)))),$uminus(r00)) [forward demodulation 834,3]
+836. 0 != $sum($sum(sK1,$sum($uminus(sK0),$sum($uminus($product(y00,q00)),$product(y00,$sum(sK2,1))))),$uminus(r00)) [forward demodulation 835,14]
+837. 0 != $sum($sum(sK1,$sum($uminus(sK0),$sum($uminus($product(y00,q00)),$product(y00,$sum(1,sK2))))),$uminus(r00)) [forward demodulation 836,3]
+884. 3 <=> 0 = $sum($sum(sK1,$sum($uminus(sK0),$sum($uminus($product(y00,q00)),$product(y00,$sum(1,sK2))))),$uminus(r00)) [avatar definition]
+887. ~3 [avatar split clause 837,884]
+888. $false [avatar sat refutation 33,738,887]
+% SZS output end Proof for nia_eucliddiv_simple_v0
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 7675
+% Time elapsed: 0.042 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.046 s
