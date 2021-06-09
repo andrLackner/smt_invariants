@@ -30,7 +30,7 @@ elif [ "$1" = "vampireZ3" ]; then
   FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp -t 5m"
 elif [ "$1" = "vampireZ3_v2" ]; then
   PROVER="vampireZ3"
-  FLAGS="--input_syntax smtlib2 --mode smtcomp -t 5m"
+  FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp --schedule induction -t 5m"
 fi 
 
 mkdir -p $OUTDIR

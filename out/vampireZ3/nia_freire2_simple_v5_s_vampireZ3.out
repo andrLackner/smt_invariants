@@ -1,0 +1,357 @@
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 134454
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% dis+1002_1_aac=none:anc=all:ind=int:sos=theory:sac=on:sstl=1:to=lpo_30 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 100296
+% Time elapsed: 4.100 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 285666
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:to=lpo_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 316370
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=all:ind=int:to=lpo_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 173984
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 250486
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=two:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_freire2_simple_v5_s
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 323022
+% Time elapsed: 11.339 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int:to=lpo_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 106181
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_freire2_simple_v5_s
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 279654
+% Time elapsed: 11.131 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_av=off:br=off:ind=int:urr=on_87 on nia_freire2_simple_v5_s
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 325069
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int:to=lpo_87 on nia_freire2_simple_v5_s
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for nia_freire2_simple_v5_s
+% SZS output start Proof for nia_freire2_simple_v5_s
+1. ? [X0 : $int,X2 : $int,X1 : $int] : (0 = $sum($difference($difference($product($product(3,X2),X2),$product($product(3,r00),r00)),X1),s00) & ~0 = $sum($difference($difference($product($product(3,$sum(X2,1)),$sum(X2,1)),$product($product(3,r00),r00)),$sum($sum(X1,$product(6,X2)),3)),s00)) [input]
+2. ? [X0,X2 : $int,X1 : $int] : (0 = $sum($sum($difference($product($product(3,X2),X2),$product($product(3,r00),r00)),$uminus(X1)),s00) & ~0 = $sum($sum($difference($product($product(3,$sum(X2,1)),$sum(X2,1)),$product($product(3,r00),r00)),$uminus($sum($sum(X1,$product(6,X2)),3))),s00)) [theory normalization 1]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
+4. $sum(X0,$sum(X1,X2)) = $sum($sum(X0,X1),X2) [theory axiom 142]
+5. $sum(X0,0) = X0 [theory axiom 143]
+6. $uminus($sum(X0,X1)) = $sum($uminus(X1),$uminus(X0)) [theory axiom 145]
+7. 0 = $sum(X0,$uminus(X0)) [theory axiom 146]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 141]
+15. $product(X0,$product(X1,X2)) = $product($product(X0,X1),X2) [theory axiom 142]
+16. $product(X0,1) = X0 [theory axiom 143]
+17. 0 = $product(X0,0) [theory axiom 155]
+18. $product(X0,$sum(X1,X2)) = $sum($product(X0,X1),$product(X0,X2)) [theory axiom 156]
+21. ? [X0,X2 : $int,X1 : $int] : (0 = $sum($sum($sum($product($product(3,X2),X2),$uminus($product($product(3,r00),r00))),$uminus(X1)),s00) & ~0 = $sum($sum($sum($product($product(3,$sum(X2,1)),$sum(X2,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(X1,$product(6,X2)),3))),s00)) [theory normalization 2]
+22. ? [X1 : $int,X2 : $int] : (0 = $sum($sum($sum($product($product(3,X1),X1),$uminus($product($product(3,r00),r00))),$uminus(X2)),s00) & ~0 = $sum($sum($sum($product($product(3,$sum(X1,1)),$sum(X1,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(X2,$product(6,X1)),3))),s00)) [rectify 21]
+23. ? [X1 : $int,X2 : $int] : (0 = $sum($sum($sum($product($product(3,X1),X1),$uminus($product($product(3,r00),r00))),$uminus(X2)),s00) & 0 != $sum($sum($sum($product($product(3,$sum(X1,1)),$sum(X1,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(X2,$product(6,X1)),3))),s00)) [flattening 22]
+24. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum($product($product(3,X0),X0),$uminus($product($product(3,r00),r00))),$uminus(X1)),s00) & 0 != $sum($sum($sum($product($product(3,$sum(X0,1)),$sum(X0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(X1,$product(6,X0)),3))),s00)) [rectify 23]
+25. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum($product($product(3,X0),X0),$uminus($product($product(3,r00),r00))),$uminus(X1)),s00) & 0 != $sum($sum($sum($product($product(3,$sum(X0,1)),$sum(X0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(X1,$product(6,X0)),3))),s00)) => (0 = $sum($sum($sum($product($product(3,sK0),sK0),$uminus($product($product(3,r00),r00))),$uminus(sK1)),s00) & 0 != $sum($sum($sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(sK1,$product(6,sK0)),3))),s00)) [choice axiom]
+26. 0 = $sum($sum($sum($product($product(3,sK0),sK0),$uminus($product($product(3,r00),r00))),$uminus(sK1)),s00) & 0 != $sum($sum($sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(sK1,$product(6,sK0)),3))),s00) [skolemisation 24,25]
+27. 0 != $sum($sum($sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(sK1,$product(6,sK0)),3))),s00) [cnf transformation 26]
+28. 0 = $sum($sum($sum($product($product(3,sK0),sK0),$uminus($product($product(3,r00),r00))),$uminus(sK1)),s00) [cnf transformation 26]
+30. 0 = $sum(s00,$sum($sum($product($product(3,sK0),sK0),$uminus($product($product(3,r00),r00))),$uminus(sK1))) [forward demodulation 28,3]
+31. 0 = $sum(s00,$sum($product($product(3,sK0),sK0),$sum($uminus($product($product(3,r00),r00)),$uminus(sK1)))) [forward demodulation 30,4]
+32. 0 = $sum(s00,$sum($product($product(3,sK0),sK0),$sum($uminus($product(r00,$product(3,r00))),$uminus(sK1)))) [forward demodulation 31,14]
+33. 0 = $sum(s00,$sum($product(sK0,$product(3,sK0)),$sum($uminus($product(r00,$product(3,r00))),$uminus(sK1)))) [forward demodulation 32,14]
+34. 0 != $sum(s00,$sum($sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$uminus($product($product(3,r00),r00))),$uminus($sum($sum(sK1,$product(6,sK0)),3)))) [forward demodulation 27,3]
+35. 0 != $sum(s00,$sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$sum($uminus($product($product(3,r00),r00)),$uminus($sum($sum(sK1,$product(6,sK0)),3))))) [forward demodulation 34,4]
+36. 0 != $sum(s00,$sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$sum($uminus($product($product(3,r00),r00)),$sum($uminus(3),$uminus($sum(sK1,$product(6,sK0))))))) [forward demodulation 35,6]
+37. 0 != $sum(s00,$sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$sum($uminus($product($product(3,r00),r00)),$sum(-3,$uminus($sum(sK1,$product(6,sK0))))))) [evaluation 36]
+38. 0 != $sum(s00,$sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$sum($uminus($product($product(3,r00),r00)),$sum(-3,$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 37,6]
+39. 0 != $sum(s00,$sum($product($product(3,$sum(sK0,1)),$sum(sK0,1)),$sum($uminus($product(r00,$product(3,r00))),$sum(-3,$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 38,14]
+40. 0 != $sum(s00,$sum($product($sum(sK0,1),$product(3,$sum(sK0,1))),$sum($uminus($product(r00,$product(3,r00))),$sum(-3,$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 39,14]
+41. 0 != $sum(s00,$sum($product($sum(1,sK0),$product(3,$sum(1,sK0))),$sum($uminus($product(r00,$product(3,r00))),$sum(-3,$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 40,3]
+44. $sum(0,X0) = X0 [superposition 3,5]
+48. $product(1,X0) = X0 [superposition 14,16]
+105. 0 = $sum($sum(X0,X1),$sum($uminus(X1),$uminus(X0))) [superposition 7,6]
+112. 0 = $sum(X0,$sum(X1,$sum($uminus(X1),$uminus(X0)))) [forward demodulation 105,4]
+144. $sum(X2,$sum($uminus(X2),X3)) = $sum(0,X3) [superposition 4,7]
+145. $sum(X4,$sum(X5,X6)) = $sum($sum(X5,X4),X6) [superposition 4,3]
+151. $sum(X7,$sum(X8,X9)) = $sum(X9,$sum(X7,X8)) [superposition 4,3]
+163. $sum(X2,$sum($uminus(X2),X3)) = X3 [forward demodulation 144,44]
+164. $sum(X4,$sum(X5,X6)) = $sum(X5,$sum(X4,X6)) [forward demodulation 145,4]
+165. 0 != $sum(s00,$sum($product($sum(1,sK0),$product(3,$sum(1,sK0))),$sum(-3,$sum($uminus($product(r00,$product(3,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [backward demodulation 41,164]
+166. 0 != $sum(s00,$sum(-3,$sum($product($sum(1,sK0),$product(3,$sum(1,sK0))),$sum($uminus($product(r00,$product(3,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 165,164]
+167. 0 != $sum(-3,$sum(s00,$sum($product($sum(1,sK0),$product(3,$sum(1,sK0))),$sum($uminus($product(r00,$product(3,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 166,164]
+192. $product(X4,$product(X5,X6)) = $product($product(X5,X4),X6) [superposition 15,14]
+199. $product(X7,$product(X8,X9)) = $product(X9,$product(X7,X8)) [superposition 15,14]
+206. $product(X4,$product(X5,X6)) = $product(X5,$product(X4,X6)) [forward demodulation 192,15]
+207. 0 != $sum(-3,$sum(s00,$sum($product($sum(1,sK0),$product(3,$sum(1,sK0))),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [backward demodulation 167,206]
+208. 0 = $sum(s00,$sum($product(sK0,$product(3,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))) [backward demodulation 33,206]
+209. 0 != $sum(-3,$sum(s00,$sum($product(3,$product($sum(1,sK0),$sum(1,sK0))),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [forward demodulation 207,206]
+210. 0 = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))) [forward demodulation 208,206]
+223. $product(X0,$sum(1,X1)) = $sum(X0,$product(X0,X1)) [superposition 18,16]
+225. $product(X4,$sum(X5,X6)) = $sum($product(X5,X4),$product(X4,X6)) [superposition 18,14]
+239. $sum($product(X0,X1),$sum($product(X0,X2),X3)) = $sum($product(X0,$sum(X1,X2)),X3) [superposition 4,18]
+242. $sum($uminus($product(X12,X14)),$uminus($product(X12,X13))) = $uminus($product(X12,$sum(X13,X14))) [superposition 6,18]
+314. $sum(0,X0) = $sum(s00,$sum($sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))),X0)) [superposition 4,210]
+317. $uminus(0) = $sum($uminus($sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))),$uminus(s00)) [superposition 6,210]
+318. 0 = $sum($uminus($sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))),$uminus(s00)) [evaluation 317]
+319. $sum(0,X0) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)),X0))) [forward demodulation 314,4]
+320. $sum(0,X0) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus(sK1),X0)))) [forward demodulation 319,4]
+321. $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus(sK1),X0)))) = X0 [forward demodulation 320,44]
+322. 0 = $sum($uminus(s00),$uminus($sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))) [forward demodulation 318,3]
+323. 0 = $sum($uminus(s00),$sum($uminus($sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))),$uminus($product(3,$product(sK0,sK0))))) [forward demodulation 322,6]
+324. 0 = $sum($uminus($product(3,$product(sK0,sK0))),$sum($uminus(s00),$uminus($sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))) [forward demodulation 323,151]
+325. 0 = $sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),$uminus($sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))) [forward demodulation 324,164]
+326. 0 = $sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),$sum($uminus($uminus(sK1)),$uminus($uminus($product(3,$product(r00,r00))))))) [forward demodulation 325,6]
+327. 0 = $sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),$sum(sK1,$product(3,$product(r00,r00))))) [evaluation 326]
+328. 0 = $sum($sum(sK1,$product(3,$product(r00,r00))),$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0))))) [forward demodulation 327,151]
+329. 0 = $sum(sK1,$sum($product(3,$product(r00,r00)),$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0)))))) [forward demodulation 328,4]
+330. 0 = $sum($product(3,$product(r00,r00)),$sum(sK1,$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0)))))) [forward demodulation 329,164]
+333. $sum(X0,$sum(X1,$uminus(X0))) = X1 [superposition 163,3]
+726. $sum($sum(X15,X16),$sum(X17,X14)) = $sum(X17,$sum(X15,$sum(X16,X14))) [superposition 151,151]
+727. $sum($sum(X19,X20),$sum(X21,X18)) = $sum(X21,$sum(X20,$sum(X18,X19))) [superposition 151,151]
+731. $sum($product(X27,X29),$sum(X30,$product(X27,X28))) = $sum(X30,$product(X27,$sum(X28,X29))) [superposition 151,18]
+732. $sum(X33,$sum(X34,$sum(X31,X32))) = $sum(X34,$sum(X31,$sum(X32,X33))) [superposition 151,4]
+740. $sum(X0,$sum(X1,X2)) = $sum(X2,$sum(X1,X0)) [superposition 151,3]
+776. $sum(X58,X59) = $sum(X57,$sum(X59,$sum($uminus(X57),X58))) [superposition 163,151]
+804. $sum(X17,$sum(X15,$sum(X16,X14))) = $sum(X15,$sum(X16,$sum(X17,X14))) [forward demodulation 726,4]
+805. $sum(X21,$sum(X20,$sum(X18,X19))) = $sum(X19,$sum(X20,$sum(X21,X18))) [forward demodulation 727,4]
+897. $sum($product(X35,X36),$sum(X38,$product(X35,X37))) = $sum(X38,$product(X35,$sum(X36,X37))) [superposition 164,18]
+900. $sum(X11,$sum(X12,X10)) = $sum(X11,$sum(X10,X12)) [superposition 164,151]
+1166. $product(X7,$product(X8,X6)) = $product(X7,$product(X6,X8)) [superposition 206,199]
+1289. $product(X8,X7) = $sum(X8,$product(X8,$sum($uminus(1),X7))) [superposition 223,163]
+1296. $product($sum(1,X3),X2) = $sum(X2,$product(X2,X3)) [superposition 223,14]
+1313. $product(X4,$product($sum(1,X5),X6)) = $product($sum(X4,$product(X4,X5)),X6) [superposition 15,223]
+1348. $product(X8,X7) = $sum(X8,$product(X8,$sum(-1,X7))) [evaluation 1289]
+1361. 0 != $sum(-3,$sum(s00,$sum($product($sum(3,$product(3,sK0)),$sum(1,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))) [backward demodulation 209,1313]
+1362. 0 != $sum(-3,$sum(s00,$sum($product($sum(3,$product(3,sK0)),1),$sum($product($sum(3,$product(3,sK0)),sK0),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1361,239]
+1363. 0 != $sum(-3,$sum(s00,$sum($product($sum(3,$product(3,sK0)),1),$sum($product(sK0,$sum(3,$product(3,sK0))),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1362,14]
+1364. 0 != $sum(-3,$sum($product(sK0,$sum(3,$product(3,sK0))),$sum(s00,$sum($product($sum(3,$product(3,sK0)),1),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1363,804]
+1365. 0 != $sum(s00,$sum(-3,$sum($product(sK0,$sum(3,$product(3,sK0))),$sum($product($sum(3,$product(3,sK0)),1),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1364,804]
+1366. 0 != $sum(-3,$sum(s00,$sum($product(sK0,$sum(3,$product(3,sK0))),$sum($product($sum(3,$product(3,sK0)),1),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1365,164]
+1367. 0 != $sum(-3,$sum(s00,$sum($product(sK0,3),$sum($product(sK0,$product(3,sK0)),$sum($product($sum(3,$product(3,sK0)),1),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))))) [forward demodulation 1366,239]
+1368. 0 != $sum(-3,$sum(s00,$sum($product(sK0,3),$sum($product(sK0,$product(3,sK0)),$sum($sum(3,$product(3,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1)))))))) [forward demodulation 1367,16]
+1369. 0 != $sum(s00,$sum($product(sK0,3),$sum($product(sK0,$product(3,sK0)),$sum($product(3,sK0),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [evaluation 1368]
+1370. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(sK0,3),$sum($product(sK0,$product(3,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1369,804]
+1371. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(sK0,3),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1370,206]
+1372. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($uminus($product(6,sK0)),$uminus(sK1))))))) [forward demodulation 1371,14]
+2151. $product(X0,$sum(X2,X1)) = $sum($product(X2,X0),$product(X1,X0)) [superposition 225,14]
+2904. $sum($uminus($product(X37,$uminus(X36))),$uminus($product(X37,X36))) = $uminus($product(X37,0)) [superposition 242,7]
+2915. $sum($uminus($product(X10,X12)),$uminus($product(X10,X11))) = $uminus($product($sum(X11,X12),X10)) [superposition 242,14]
+2964. $uminus(0) = $sum($uminus($product(X37,$uminus(X36))),$uminus($product(X37,X36))) [forward demodulation 2904,17]
+2965. 0 = $sum($uminus($product(X37,$uminus(X36))),$uminus($product(X37,X36))) [evaluation 2964]
+2966. 0 = $sum($uminus($product(X37,X36)),$uminus($product(X37,$uminus(X36)))) [forward demodulation 2965,3]
+3307. $sum(0,X2) = $sum($product(3,$product(r00,r00)),$sum($sum(sK1,$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0))))),X2)) [superposition 4,330]
+3323. $sum(X22,0) = $sum($product(3,$product(r00,r00)),$sum(X22,$sum(sK1,$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0))))))) [superposition 164,330]
+3330. $sum(0,X2) = $sum($product(3,$product(r00,r00)),$sum(sK1,$sum($sum($uminus(s00),$uminus($product(3,$product(sK0,sK0)))),X2))) [forward demodulation 3307,4]
+3331. $sum(0,X2) = $sum($product(3,$product(r00,r00)),$sum(sK1,$sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),X2)))) [forward demodulation 3330,4]
+3332. $sum($product(3,$product(r00,r00)),$sum(sK1,$sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),X2)))) = X2 [forward demodulation 3331,44]
+3359. $sum($product(3,$product(r00,r00)),$sum(X22,$sum(sK1,$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0))))))) = X22 [forward demodulation 3323,5]
+3519. $sum($uminus($uminus(sK1)),X4) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),X4))) [superposition 321,163]
+3520. $sum(X5,$sum($uminus(X5),$uminus($uminus(sK1)))) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),0))) [superposition 321,112]
+3554. $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),0))) = $sum(X5,$sum($uminus(X5),sK1)) [evaluation 3520]
+3555. $sum(sK1,X4) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),X4))) [evaluation 3519]
+3559. $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),0))) = $sum(X5,$sum(sK1,$uminus(X5))) [forward demodulation 3554,900]
+3560. sK1 = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),0))) [forward demodulation 3559,333]
+3561. sK1 = $sum(0,$sum($product(3,$product(sK0,sK0)),$sum(s00,$uminus($product(3,$product(r00,r00)))))) [forward demodulation 3560,805]
+3562. sK1 = $sum(s00,$sum(0,$sum($product(3,$product(sK0,sK0)),$uminus($product(3,$product(r00,r00)))))) [forward demodulation 3561,804]
+3563. sK1 = $sum(0,$sum(s00,$sum($product(3,$product(sK0,sK0)),$uminus($product(3,$product(r00,r00)))))) [forward demodulation 3562,164]
+3564. sK1 = $sum(s00,$sum($product(3,$product(sK0,sK0)),$uminus($product(3,$product(r00,r00))))) [forward demodulation 3563,44]
+10797. $sum(X46,$sum($sum(X44,X45),X43)) = $sum(X46,$sum(X45,$sum(X44,X43))) [superposition 900,740]
+11097. $sum(X46,$sum(X44,$sum(X45,X43))) = $sum(X46,$sum(X45,$sum(X44,X43))) [forward demodulation 10797,4]
+11879. $sum(X15,$sum($product(X15,X16),X17)) = $sum($product($sum(1,X16),X15),X17) [superposition 4,1296]
+11880. $sum($uminus($product(X18,X19)),$uminus(X18)) = $uminus($product($sum(1,X19),X18)) [superposition 6,1296]
+12023. $uminus($product($sum(1,X19),X18)) = $sum($uminus(X18),$uminus($product(X18,X19))) [forward demodulation 11880,3]
+12596. $sum($uminus($product(X20,$sum(-1,X21))),$uminus(X20)) = $uminus($product(X20,X21)) [superposition 6,1348]
+12728. $uminus($product(X20,X21)) = $sum($uminus(X20),$uminus($product(X20,$sum(-1,X21)))) [forward demodulation 12596,3]
+12729. $uminus($product(X20,X21)) = $sum($uminus(X20),$sum($uminus($product(X20,X21)),$uminus($product(X20,-1)))) [forward demodulation 12728,242]
+17017. $sum(X52,$sum(X54,X51)) = $sum(X54,$sum(X53,$sum(X52,$sum($uminus(X53),X51)))) [superposition 151,776]
+23374. 0 = $sum($uminus($product(X23,$product(X25,X24))),$uminus($product(X23,$uminus($product(X24,X25))))) [superposition 2966,1166]
+23405. $sum($product(X2,X3),0) = $uminus($product(X2,$uminus(X3))) [superposition 163,2966]
+23413. $uminus($product(X23,X24)) = $sum($product(X23,$uminus(X24)),0) [superposition 333,2966]
+23574. $product(X2,X3) = $uminus($product(X2,$uminus(X3))) [forward demodulation 23405,5]
+23590. 0 = $sum($uminus($product(X23,$product(X25,X24))),$product(X23,$product(X24,X25))) [backward demodulation 23374,23574]
+23622. 0 = $sum($product(X23,$product(X24,X25)),$uminus($product(X23,$product(X25,X24)))) [forward demodulation 23590,3]
+23639. $uminus($product(X23,X24)) = $product(X23,$uminus(X24)) [forward demodulation 23413,5]
+23643. $uminus($product($sum(X11,X12),X10)) = $sum($product(X10,$uminus(X12)),$uminus($product(X10,X11))) [backward demodulation 2915,23639]
+23664. $uminus($product($sum(1,X19),X18)) = $sum($uminus(X18),$product(X18,$uminus(X19))) [backward demodulation 12023,23639]
+23669. $product(X20,$uminus(X21)) = $sum($uminus(X20),$sum($product(X20,$uminus(X21)),$uminus($product(X20,-1)))) [backward demodulation 12729,23639]
+23765. $uminus($product($sum(X11,X12),X10)) = $sum($product(X10,$uminus(X12)),$product(X10,$uminus(X11))) [forward demodulation 23643,23639]
+23766. $uminus($product($sum(X11,X12),X10)) = $product(X10,$sum($uminus(X12),$uminus(X11))) [forward demodulation 23765,18]
+23767. $product(X10,$sum($uminus(X12),$uminus(X11))) = $product($sum(X11,X12),$uminus(X10)) [forward demodulation 23766,23639]
+23795. $sum($uminus(X18),$product(X18,$uminus(X19))) = $product($sum(1,X19),$uminus(X18)) [forward demodulation 23664,23639]
+23811. $product(X20,$uminus(X21)) = $sum($uminus(X20),$sum($product(X20,$uminus(X21)),$product(X20,$uminus(-1)))) [forward demodulation 23669,23639]
+23812. $product(X20,$uminus(X21)) = $sum($uminus(X20),$sum($product(X20,$uminus(X21)),$product(X20,1))) [evaluation 23811]
+23813. $product(X20,$uminus(X21)) = $sum($uminus(X20),$product(X20,$sum($uminus(X21),1))) [forward demodulation 23812,18]
+23814. $product(X20,$uminus(X21)) = $sum($product(X20,1),$sum($uminus(X20),$product(X20,$uminus(X21)))) [forward demodulation 23813,731]
+23815. $product(X20,$uminus(X21)) = $sum($product(X20,1),$product($sum(1,X21),$uminus(X20))) [forward demodulation 23814,23795]
+23816. $sum(X20,$product($sum(1,X21),$uminus(X20))) = $product(X20,$uminus(X21)) [forward demodulation 23815,16]
+24423. sK1 = $sum(s00,$sum($product(3,$product(sK0,sK0)),$product(3,$uminus($product(r00,r00))))) [forward demodulation 3564,23639]
+24424. sK1 = $sum(s00,$product(3,$sum($product(sK0,sK0),$uminus($product(r00,r00))))) [forward demodulation 24423,18]
+24425. sK1 = $sum(s00,$product(3,$sum($product(sK0,sK0),$product(r00,$uminus(r00))))) [forward demodulation 24424,23639]
+24426. $sum(sK1,X4) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($product(3,$uminus($product(r00,r00))),X4))) [forward demodulation 3555,23639]
+24427. $sum(sK1,X4) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($sum(3,$product($sum(1,$product(r00,r00)),$uminus(3))),X4))) [forward demodulation 24426,23816]
+24428. $sum(sK1,X4) = $sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),X4))) [evaluation 24427]
+24429. $sum(sK1,X4) = $sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),$sum(s00,$sum($product(3,$product(sK0,sK0)),X4))) [forward demodulation 24428,804]
+24430. $sum(sK1,X4) = $sum(3,$sum($product($sum(1,$product(r00,r00)),-3),$sum(s00,$sum($product(3,$product(sK0,sK0)),X4)))) [forward demodulation 24429,4]
+24431. $sum(sK1,X4) = $sum(3,$sum(-3,$sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,$product(sK0,sK0)),X4))))) [forward demodulation 24430,11879]
+24432. $sum(sK1,X4) = $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,$product(sK0,sK0)),X4))) [evaluation 24431]
+24605. $sum($product(3,$product(r00,r00)),$sum(X22,$sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus(s00),$uminus($product(3,$product(sK0,sK0))))))))) = X22 [forward demodulation 3359,24432]
+24606. $sum($product(3,$product(r00,r00)),$sum(X22,$sum($product(3,$product(sK0,sK0)),$sum($product(-3,$product(r00,r00)),$uminus($product(3,$product(sK0,sK0))))))) = X22 [forward demodulation 24605,17017]
+24607. $sum($product(3,$product(r00,r00)),$sum(X22,$sum($product(-3,$product(r00,r00)),$sum($product(3,$product(sK0,sK0)),$uminus($product(3,$product(sK0,sK0))))))) = X22 [forward demodulation 24606,11097]
+24608. $sum($product(3,$product(r00,r00)),$sum(X22,$sum($product(-3,$product(r00,r00)),0))) = X22 [forward demodulation 24607,23622]
+24609. $sum(0,$sum($product(3,$product(r00,r00)),$sum(X22,$product(-3,$product(r00,r00))))) = X22 [forward demodulation 24608,732]
+24610. $sum($product(3,$product(r00,r00)),$sum(X22,$product(-3,$product(r00,r00)))) = X22 [forward demodulation 24609,44]
+24629. $sum($product(3,$product(r00,r00)),$sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,$product(sK0,sK0)),$sum($uminus(s00),$sum($uminus($product(3,$product(sK0,sK0))),X2)))))) = X2 [forward demodulation 3332,24432]
+24630. $sum($product(3,$product(r00,r00)),$sum($product(3,$product(sK0,sK0)),$sum($product(-3,$product(r00,r00)),$sum($uminus($product(3,$product(sK0,sK0))),X2)))) = X2 [forward demodulation 24629,17017]
+24631. $sum($product(-3,$product(r00,r00)),$sum($product(3,$product(r00,r00)),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(sK0,sK0))),X2)))) = X2 [forward demodulation 24630,804]
+24632. $sum($product(3,$product(r00,r00)),$sum($product(-3,$product(r00,r00)),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(sK0,sK0))),X2)))) = X2 [forward demodulation 24631,164]
+24633. $sum($product(3,$product(r00,r00)),$sum($product(-3,$product(r00,r00)),X2)) = X2 [forward demodulation 24632,163]
+24775. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($product(6,$uminus(sK0)),$uminus(sK1))))))) [forward demodulation 1372,23639]
+24776. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($sum(6,$product($sum(1,sK0),$uminus(6))),$uminus(sK1))))))) [forward demodulation 24775,23816]
+24777. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$sum($sum(6,$product($sum(1,sK0),-6)),$uminus(sK1))))))) [evaluation 24776]
+24778. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($sum(6,$product($sum(1,sK0),-6)),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24777,804]
+24779. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($product(3,sK0),$sum($sum(6,$product($sum(1,sK0),-6)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24778,804]
+24780. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($sum(6,$product($sum(1,sK0),-6)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24779,804]
+24781. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum(6,$sum($product($sum(1,sK0),-6),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))))))) [forward demodulation 24780,4]
+24782. 0 != $sum(s00,$sum($product(3,sK0),$sum(6,$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($product($sum(1,sK0),-6),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))))))) [forward demodulation 24781,804]
+24783. 0 != $sum(6,$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($product($sum(1,sK0),-6),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1)))))))) [forward demodulation 24782,804]
+24784. 0 != $sum(6,$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum(-6,$sum($product(-6,sK0),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))))) [forward demodulation 24783,11879]
+24785. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($product(-6,sK0),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [evaluation 24784]
+24786. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24785,804]
+24787. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$sum($uminus($product(3,$product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24786,804]
+24788. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$sum($product(3,$uminus($product(r00,r00))),$uminus(sK1))))))) [forward demodulation 24787,23639]
+24789. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$sum($sum(3,$product($sum(1,$product(r00,r00)),$uminus(3))),$uminus(sK1))))))) [forward demodulation 24788,23816]
+24790. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),$uminus(sK1))))))) [evaluation 24789]
+24791. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1))))))) [forward demodulation 24790,804]
+24792. 0 != $sum(s00,$sum($product(3,sK0),$sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1))))))) [forward demodulation 24791,804]
+24793. 0 != $sum($sum(3,$product($sum(1,$product(r00,r00)),-3)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1))))))) [forward demodulation 24792,804]
+24794. 0 != $sum(3,$sum($product($sum(1,$product(r00,r00)),-3),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1)))))))) [forward demodulation 24793,4]
+24795. 0 != $sum(3,$sum(-3,$sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1))))))))) [forward demodulation 24794,11879]
+24796. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$uminus(sK1))))))) [evaluation 24795]
+47374. $sum($uminus(X246),$uminus(X247)) = $product($sum(X247,X246),$uminus(1)) [superposition 48,23767]
+47434. $sum($uminus(X246),$uminus(X247)) = $product($sum(X247,X246),-1) [evaluation 47374]
+48064. $sum($uminus(X246),$uminus(X247)) = $product(-1,$sum(X247,X246)) [forward demodulation 47434,14]
+50580. $uminus(X88) = $sum($uminus($sum(X88,$product(-3,$product(r00,r00)))),$uminus($product(3,$product(r00,r00)))) [superposition 6,24610]
+50825. $uminus(X88) = $product(-1,$sum($product(3,$product(r00,r00)),$sum(X88,$product(-3,$product(r00,r00))))) [forward demodulation 50580,48064]
+50826. $uminus(X88) = $product(-1,X88) [forward demodulation 50825,24610]
+50833. $sum(X2,$sum($product(-1,X2),X3)) = X3 [backward demodulation 163,50826]
+52111. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,sK1))))))) [forward demodulation 24796,50826]
+52179. sK1 = $sum(s00,$product(3,$sum($product(sK0,sK0),$product(r00,$product(-1,r00))))) [forward demodulation 24425,50826]
+52180. sK1 = $sum($product(3,$product(r00,$product(-1,r00))),$sum(s00,$product(3,$product(sK0,sK0)))) [forward demodulation 52179,731]
+52181. sK1 = $sum($product(-3,$product(r00,r00)),$sum(s00,$product(3,$product(sK0,sK0)))) [evaluation 52180]
+52220. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum($product(-3,$product(r00,r00)),$sum(s00,$product(3,$product(sK0,sK0))))))))))) [backward demodulation 52111,52181]
+52405. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(-1,$product(-3,$product(r00,r00))),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))))) [forward demodulation 52220,897]
+52406. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(r00,r00)),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))))) [evaluation 52405]
+52407. 0 != $sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,$product(r00,r00)),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))))) [forward demodulation 52406,804]
+52408. 0 != $sum($product(-3,$product(r00,r00)),$sum($product(3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))))) [forward demodulation 52407,804]
+52409. 0 != $sum($product(3,$product(r00,r00)),$sum($product(-3,$product(r00,r00)),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))))) [forward demodulation 52408,164]
+52410. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-1,$sum(s00,$product(3,$product(sK0,sK0))))))))) [forward demodulation 52409,24633]
+52411. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(-1,s00),$sum($product(3,$product(sK0,sK0)),$product(-1,$product(3,$product(sK0,sK0))))))))) [forward demodulation 52410,897]
+52412. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(-1,s00),$sum($product(3,$product(sK0,sK0)),$product(-3,$product(sK0,sK0)))))))) [evaluation 52411]
+52413. 0 != $sum(s00,$sum($product(3,sK0),$sum($product(-1,s00),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-3,$product(sK0,sK0)))))))) [forward demodulation 52412,804]
+52414. 0 != $sum($product(-1,s00),$sum(s00,$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-3,$product(sK0,sK0)))))))) [forward demodulation 52413,804]
+52415. 0 != $sum(s00,$sum($product(-1,s00),$sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-3,$product(sK0,sK0)))))))) [forward demodulation 52414,164]
+52416. 0 != $sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$sum($product(3,$product(sK0,sK0)),$product(-3,$product(sK0,sK0)))))) [forward demodulation 52415,50833]
+52417. 0 != $sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$product($product(sK0,sK0),$sum(3,-3))))) [forward demodulation 52416,2151]
+52418. 0 != $sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),$product($product(sK0,sK0),0)))) [evaluation 52417]
+52419. 0 != $sum($product(3,sK0),$sum($product(3,sK0),$sum($product(-6,sK0),0))) [forward demodulation 52418,17]
+52420. 0 != $sum(0,$sum($product(3,sK0),$sum($product(3,sK0),$product(-6,sK0)))) [forward demodulation 52419,805]
+52421. 0 != $sum($product(3,sK0),$sum($product(3,sK0),$product(-6,sK0))) [forward demodulation 52420,44]
+52422. 0 != $sum($product(3,sK0),$product(sK0,$sum(3,-6))) [forward demodulation 52421,2151]
+52423. 0 != $sum($product(3,sK0),$product(sK0,-3)) [evaluation 52422]
+52424. 0 != $product(sK0,$sum(3,-3)) [forward demodulation 52423,225]
+52425. 0 != $product(sK0,0) [evaluation 52424]
+52426. $false [subsumption resolution 52425,17]
+% SZS output end Proof for nia_freire2_simple_v5_s
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 126906
+% Time elapsed: 4.489 s
+% ------------------------------
+% ------------------------------
+% Success in time 111.657 s

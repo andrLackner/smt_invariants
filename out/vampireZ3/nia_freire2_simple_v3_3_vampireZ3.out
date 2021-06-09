@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11001
+% Memory used [KB]: 9978
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -18,7 +18,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11001
+% Memory used [KB]: 9978
 % Time elapsed: 0.900 s
 % ------------------------------
 % ------------------------------
@@ -30,7 +30,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11001
+% Memory used [KB]: 8315
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -42,7 +42,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 9466
+% Memory used [KB]: 8955
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -54,7 +54,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 9466
+% Memory used [KB]: 8955
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -66,7 +66,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11769
+% Memory used [KB]: 11001
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -78,7 +78,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11001
+% Memory used [KB]: 9978
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -90,7 +90,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11001
+% Memory used [KB]: 9978
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -102,7 +102,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 8443
+% Memory used [KB]: 8187
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -114,7 +114,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11257
+% Memory used [KB]: 8571
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -126,32 +126,30 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 10490
+% Memory used [KB]: 9850
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on nia_freire2_simple_v3_3
-% Time limit reached!
+186341 Aborted by signal SIGABRT on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire2/nia_freire2_simple_v3_3.smt2
 % ------------------------------
 % Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
+% Termination reason: Refutation
 
-% Memory used [KB]: 7547
-% Time elapsed: 60.200 s
+% Memory used [KB]: 7803
+% Time elapsed: -13.881 s
 % ------------------------------
 % ------------------------------
 % lrs+1011_3:1_aac=none:add=large:afp=1000:afq=2.0:fsr=off:gs=on:gsaa=from_current:gsem=on:ile=on:nm=4:nwc=1.5:sas=z3:sp=reverse_arity:tha=off:uwa=interpreted_only:uhcvi=on_300 on nia_freire2_simple_v3_3
-% Time limit reached!
+186352 Aborted by signal SIGABRT on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire2/nia_freire2_simple_v3_3.smt2
 % ------------------------------
 % Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
+% Termination reason: Refutation
 
-% Memory used [KB]: 7675
-% Time elapsed: 30.200 s
+% Memory used [KB]: 7547
+% Time elapsed: -11.843 s
 % ------------------------------
 % ------------------------------
 % ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on nia_freire2_simple_v3_3
@@ -162,7 +160,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 1921120
+% Memory used [KB]: 2054166
 % Time elapsed: 60.200 s
 % ------------------------------
 % ------------------------------
@@ -174,7 +172,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 9850
+% Memory used [KB]: 9978
 % Time elapsed: 30.200 s
 % ------------------------------
 % ------------------------------
@@ -186,7 +184,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 10490
+% Memory used [KB]: 9978
 % Time elapsed: 30.200 s
 % ------------------------------
 % ------------------------------
@@ -198,11 +196,12 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 8571
+% Memory used [KB]: 8699
 % Time elapsed: 30.200 s
 % ------------------------------
 % ------------------------------
 % lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on nia_freire2_simple_v3_3
+% lrs+1_3:1_acc=model:add=large:afp=40000:afq=1.2:anc=none:bd=off:bsr=on:ccuc=first:fsr=off:inw=on:irw=on:lma=on:nm=64:newcnf=on:nwc=2:sp=reverse_arity:updr=off_300 on nia_freire2_simple_v3_3
 % Time limit reached!
 % ------------------------------
 % Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
@@ -210,9 +209,34 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 1041987
-% Time elapsed: 52.600 s
+% Memory used [KB]: 570054
+% Time elapsed: 30.200 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 300.13 s
-% SZS status Timeout for nia_freire2_simple_v3_3
+% fmb+10_1_av=off:bce=on:fmbes=contour:fmbsr=1.4:fde=unused:updr=off_900 on nia_freire2_simple_v3_3
+% dis+1011_2:1_add=off:afp=40000:afq=1.1:amm=sco:anc=none:fsr=off:fde=unused:gsp=input_only:ile=on:irw=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sos=all:sp=occurrence:updr=off:uhcvi=on_300 on nia_freire2_simple_v3_3
+186551 Aborted by signal SIGABRT on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire2/nia_freire2_simple_v3_3.smt2
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 4477
+% Time elapsed: 231.614 s
+% ------------------------------
+% ------------------------------
+% ott+1010_2:1_acc=on:add=large:afr=on:afp=40000:afq=1.1:anc=none:gs=on:inw=on:ile=on:nm=64:newcnf=on:nwc=1:sos=on:sac=on:sp=reverse_arity:urr=on_300 on nia_freire2_simple_v3_3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 289121
+% Time elapsed: 30.200 s
+% ------------------------------
+% ------------------------------
+% lrs+10_3:1_afr=on:afp=100000:afq=1.4:amm=sco:anc=none:gs=on:gsem=off:ile=on:nm=64:newcnf=on:nwc=1:sac=on:urr=on:uhcvi=on_300 on nia_freire2_simple_v3_3
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire2/nia_freire2_simple_v3_3.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire2/nia_freire2_simple_v3_3.smt2
