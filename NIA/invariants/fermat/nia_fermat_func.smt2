@@ -13,6 +13,7 @@
 ;   end
 
 (set-logic NIA)
+(set-option :produce-proofs true)
 
 (declare-fun u (Int) Int)
 (declare-fun v (Int) Int)
@@ -39,7 +40,7 @@
                     (and
                         (= (r (+ i 1)) (+ (r i) (u i)))
                         (= (u (+ i 1)) (+ (u i) 2))
-                        (= (v (+ i 1)) (+ (v i)))
+                        (= (v (+ i 1)) (v i))
                     )
                 )
             )
@@ -73,4 +74,5 @@
 )
 
 (check-sat)
+(get-proof)
 (exit)

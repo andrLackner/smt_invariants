@@ -1,0 +1,329 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 119102
+% Time elapsed: 10.990 s
+% ------------------------------
+% ------------------------------
+% dis+1002_1_aac=none:anc=all:ind=int:sos=theory:sac=on:sstl=1:to=lpo_30 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 50788
+% Time elapsed: 4.100 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 106309
+% Time elapsed: 11.208 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 88399
+% Time elapsed: 11.133 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=all:ind=int:to=lpo_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 79572
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 102727
+% Time elapsed: 11.455 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=two:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 111042
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 140338
+% Time elapsed: 11.302 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 92109
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_av=off:br=off:ind=int:urr=on_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 361785
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 155178
+% Time elapsed: 11.416 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 272874
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int:sos=theory:sstl=1_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 104390
+% Time elapsed: 10.843 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 279782
+% Time elapsed: 11.354 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=two:ind=int:to=lpo_87 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 78548
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=two:ind=int:sos=theory:sstl=1:to=lpo_87 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 93644
+% Time elapsed: 11.063 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_avsq=on:drc=off:iik=all:ind=int:to=lpo_30 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 33133
+% Time elapsed: 4.100 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:thsq=on:thsqd=16:to=lpo_30 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 42984
+% Time elapsed: 4.100 s
+% ------------------------------
+% ------------------------------
+% lrs+4_5_drc=off:iik=one:ind=int:plsq=on:to=lpo_100 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 61917
+% Time elapsed: 13.200 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=one:ind=int_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 270315
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=all:ind=int:sos=theory:sstl=1:to=lpo_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 365495
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=all:ind=int:sos=theory:sstl=1_81 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 149677
+% Time elapsed: 10.669 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=all:ind=int:sos=theory:sstl=1_81 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 161447
+% Time elapsed: 10.669 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=all:ind=int_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 180892
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=two:ind=int:to=lpo_81 on nia_cohencu_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 89678
+% Time elapsed: 10.423 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=two:ind=int:sos=theory:sstl=1_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 148526
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_drc=off:iik=two:ind=int_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 261360
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=two:ind=int:sos=theory:sstl=1_81 on nia_cohencu_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 156841
+% Time elapsed: 10.700 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=two:ind=int_81 on nia_cohencu_func
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/cohencu/nia_cohencu_func.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/cohencu/nia_cohencu_func.smt2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 258034
+% Time elapsed: 8.700 s
+% ------------------------------
+% ------------------------------
+% Proof not found in time 300.079 s
+% SZS status Timeout for nia_cohencu_func

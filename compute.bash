@@ -16,7 +16,7 @@ function ctrl_c() {
 
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: compute {prover} {outdir}"
+    echo "Usage: compute PROVER OUTDIR"
     exit 1
 fi
 

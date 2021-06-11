@@ -1,4 +1,5 @@
 (set-logic NIA)
+(set-option :produce-proofs true)
 
 (declare-fun s (Int) Int)
 

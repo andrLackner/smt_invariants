@@ -9,6 +9,7 @@
 ;    end
 
 (set-logic NIA)
+(set-option :produce-proofs true)
 
 (declare-const y00 Int)
 (declare-const q00 Int)
@@ -30,4 +31,5 @@
 )
 
 (check-sat)
+(get-proof)
 (exit)

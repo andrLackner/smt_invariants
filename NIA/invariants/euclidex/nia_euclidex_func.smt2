@@ -18,6 +18,7 @@
 ;   end
 
 (set-logic NIA)
+(set-option :produce-proofs true)
 
 (declare-fun a (Int) Int)
 (declare-fun b (Int) Int)
@@ -103,4 +104,5 @@
 )
 
 (check-sat)
+(get-proof)
 (exit)

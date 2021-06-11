@@ -15,6 +15,7 @@
 
 
 (set-logic NIA)
+(set-option :produce-proofs true)
 
 (assert
 	(exists
@@ -36,4 +37,5 @@
 )
 
 (check-sat)
+(get-proof)
 (exit)

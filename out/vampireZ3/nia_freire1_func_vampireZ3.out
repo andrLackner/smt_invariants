@@ -1,67 +1,127 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17270
+% Memory used [KB]: 17398
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 21620
-% Time elapsed: 0.900 s
+% Memory used [KB]: 26097
+% Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 12153
+% Memory used [KB]: 12920
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 22771
+% Memory used [KB]: 20724
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on_2 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 22771
+% Memory used [KB]: 21748
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sos=theory:sstl=5_2 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 14967
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% WARNING: value on for option gve not known
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=on_2 on nia_freire1_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 0.500 s
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on nia_freire1_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16630
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:plsq=on_2 on nia_freire1_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 19957
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on_2 on nia_freire1_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 19445
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on nia_freire1_func
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
@@ -70,141 +130,84 @@
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
-% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=on_2 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 17526
-% Time elapsed: 0.500 s
-% ------------------------------
-% ------------------------------
-% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 17782
-% Time elapsed: 0.500 s
-% ------------------------------
-% ------------------------------
-% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:plsq=on_2 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 20340
-% Time elapsed: 0.500 s
-% ------------------------------
-% ------------------------------
-% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on_2 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 20212
-% Time elapsed: 0.500 s
-% ------------------------------
-% ------------------------------
-% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 17526
-% Time elapsed: 0.500 s
-% ------------------------------
-% ------------------------------
 % dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 198035
-% Time elapsed: 60.200 s
+% Memory used [KB]: 236925
+% Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
 % lrs+1011_3:1_aac=none:add=large:afp=1000:afq=2.0:fsr=off:gs=on:gsaa=from_current:gsem=on:ile=on:nm=4:nwc=1.5:sas=z3:sp=reverse_arity:tha=off:uwa=interpreted_only:uhcvi=on_300 on nia_freire1_func
+% Refutation not found, incomplete strategy% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, incomplete strategy
+
+% Memory used [KB]: 7164
+% Time elapsed: 0.027 s
+% ------------------------------
+% ------------------------------
 % ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 2022056
-% Time elapsed: 60.200 s
+% Memory used [KB]: 2110456
+% Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
 % dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 950517
-% Time elapsed: 30.200 s
+% Memory used [KB]: 1040452
+% Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
 % lrs+10_5_add=off:afp=10000:afq=1.0:amm=off:anc=none:bsr=on:fde=unused:gs=on:irw=on:nm=2:newcnf=on:nwc=1:nicw=on:sas=z3:sos=on:sac=on:sp=occurrence:updr=off:uhcvi=on_300 on nia_freire1_func
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
 % Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 471804
-% Time elapsed: 30.200 s
+% Memory used [KB]: 503787
+% Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
 % dis+10_4_add=off:afp=4000:afq=1.1:amm=sco:anc=none:fsr=off:gs=on:ile=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:tha=off:urr=on:updr=off_300 on nia_freire1_func
+% Refutation not found, incomplete strategy% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, incomplete strategy
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.026 s
+% ------------------------------
+% ------------------------------
 % lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on nia_freire1_func
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 1983549
+% Time elapsed: 58.694 s
+% ------------------------------
+% ------------------------------
 % lrs+1_3:1_acc=model:add=large:afp=40000:afq=1.2:anc=none:bd=off:bsr=on:ccuc=first:fsr=off:inw=on:irw=on:lma=on:nm=64:newcnf=on:nwc=2:sp=reverse_arity:updr=off_300 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 1098532
-% Time elapsed: 30.200 s
-% ------------------------------
-% ------------------------------
-% fmb+10_1_av=off:bce=on:fmbes=contour:fmbsr=1.4:fde=unused:updr=off_900 on nia_freire1_func
-% dis+1011_2:1_add=off:afp=40000:afq=1.1:amm=sco:anc=none:fsr=off:fde=unused:gsp=input_only:ile=on:irw=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sos=all:sp=occurrence:updr=off:uhcvi=on_300 on nia_freire1_func
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 2f3063097 on 2021-04-08 14:14:55 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 22131
-% Time elapsed: 23.0000 s
-% ------------------------------
-% ------------------------------
-% Proof not found in time 300.066 s
-% SZS status Timeout for nia_freire1_func
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire1/nia_freire1_func.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/freire1/nia_freire1_func.smt2

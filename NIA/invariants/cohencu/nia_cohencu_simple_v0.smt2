@@ -14,6 +14,8 @@
 ;       z = z+6
 ;   end
 (set-logic NIA)
+(set-option :produce-proofs true)
+
 (declare-const n00 Int)
 (declare-const x00 Int)
 (declare-const z00 Int)
@@ -45,6 +47,5 @@
 
 
 (check-sat)
+(get-proof)
 (exit)
-
-

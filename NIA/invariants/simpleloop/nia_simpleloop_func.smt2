@@ -8,9 +8,10 @@
 ;   end
 
 (set-logic NIA)
+(set-option :produce-proofs true)
 
-(declare-fun x (Int) Real)
-(declare-fun y (Int) Real)
+(declare-fun x (Int) Int)
+(declare-fun y (Int) Int)
 
 (declare-fun inv (Int) Int)
 
@@ -44,4 +45,5 @@
 )
 
 (check-sat)
+(get-proof)
 (exit)
