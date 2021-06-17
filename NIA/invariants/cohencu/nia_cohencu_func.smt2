@@ -1,4 +1,5 @@
 ; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/singlepath.jl
+; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/singlepath.jl
 ; INVARIANTS:   n - 1//6*z - n00 + 1//6*z00
 ;               z^2 - z00^2 - 12*y - 6*z + 12*y00 + 6*z00
 ;               z*z00^2 - z00^3 - 6*y*z - 12*z*y00 - 6*z*z00 + 18*y00*z00 + 6*z00^2 + 72*y + 108*x - 72*y00 - 108*x00
