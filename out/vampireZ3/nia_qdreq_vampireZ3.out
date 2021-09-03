@@ -1,0 +1,29 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on nia_qdreq
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for nia_qdreq
+% SZS output start Proof for nia_qdreq
+1. 0 = $product($sum(x,1),$sum(x,1)) [input]
+2. ~x = $uminus(1) [input]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
+21. x != $uminus(1) [flattening 2]
+22. 0 = $product($sum(x,1),$sum(x,1)) [cnf transformation 1]
+23. x != $uminus(1) [cnf transformation 21]
+25. x != -1 [evaluation 23]
+27. 1 <=> x = -1 [avatar definition]
+30. ~1 [avatar split clause 25,27]
+117. 0 = $product($sum(1,x),$sum(1,x)) [forward demodulation 22,3]
+143. 2 <=> 0 = $product($sum(1,x),$sum(1,x)) [avatar definition]
+146. 2 [avatar split clause 117,143]
+147. $false [avatar sat refutation 30,146]
+% SZS output end Proof for nia_qdreq
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.039 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.034 s

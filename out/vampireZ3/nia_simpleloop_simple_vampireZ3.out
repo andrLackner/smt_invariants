@@ -1,0 +1,25 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on nia_simpleloop_simple
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for nia_simpleloop_simple
+% SZS output start Proof for nia_simpleloop_simple
+1. ? [X1 : $int,X0 : $int] : (0 = $difference($sum(X1,X0),$sum(y00,x00)) & ~0 = $difference($sum($sum(X1,1),$difference(X0,1)),$sum(y00,x00))) [input]
+2. ? [X1 : $int,X0 : $int] : (0 = $sum($sum(X1,X0),$uminus($sum(y00,x00))) & ~0 = $sum($sum($sum(X1,1),$difference(X0,1)),$uminus($sum(y00,x00)))) [theory normalization 1]
+15. ? [X1 : $int,X0 : $int] : (0 = $sum($sum(X1,X0),$uminus($sum(y00,x00))) & ~0 = $sum($sum($sum(X1,1),$sum(X0,$uminus(1))),$uminus($sum(y00,x00)))) [theory normalization 2]
+16. ? [X0 : $int,X1 : $int] : (0 = $sum($sum(X0,X1),$uminus($sum(y00,x00))) & ~0 = $sum($sum($sum(X0,1),$sum(X1,$uminus(1))),$uminus($sum(y00,x00)))) [rectify 15]
+17. ? [X0 : $int,X1 : $int] : (0 = $sum($sum(X0,X1),$uminus($sum(y00,x00))) & 0 != $sum($sum($sum(X0,1),$sum(X1,$uminus(1))),$uminus($sum(y00,x00)))) [flattening 16]
+18. 0 != $sum($sum($sum(sK0,1),$sum(sK1,$uminus(1))),$uminus($sum(y00,x00))) [cnf transformation 17]
+19. 0 = $sum($sum(sK0,sK1),$uminus($sum(y00,x00))) [cnf transformation 17]
+20. 0 != $sum($sum(sK0,sK1),$uminus($sum(y00,x00))) [evaluation 18]
+21. $false [global subsumption 19,20]
+% SZS output end Proof for nia_simpleloop_simple
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 6908
+% Time elapsed: 0.020 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.027 s

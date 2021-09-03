@@ -7,7 +7,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 29935
+% Memory used [KB]: 32750
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -19,7 +19,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 50404
+% Memory used [KB]: 56033
 % Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
@@ -31,7 +31,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 14839
+% Memory used [KB]: 15351
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -43,7 +43,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 19061
+% Memory used [KB]: 21364
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -55,7 +55,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 18677
+% Memory used [KB]: 20724
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -67,7 +67,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 18038
+% Memory used [KB]: 18421
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -80,7 +80,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 27504
+% Memory used [KB]: 32750
 % Time elapsed: 0.500 s
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on nia_cubes_func
 % Time limit reached!
@@ -90,7 +90,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 27249
+% Memory used [KB]: 31726
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -102,7 +102,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 26225
+% Memory used [KB]: 31470
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -114,7 +114,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 25074
+% Memory used [KB]: 28656
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -126,7 +126,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 29807
+% Memory used [KB]: 31342
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -149,7 +149,7 @@
 % Termination reason: Refutation not found, incomplete strategy
 
 % Memory used [KB]: 7547
-% Time elapsed: 0.293 s
+% Time elapsed: 0.337 s
 % ------------------------------
 % ------------------------------
 % ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on nia_cubes_func
@@ -160,7 +160,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 2300303
+% Memory used [KB]: 2376166
 % Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
@@ -172,7 +172,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 1316652
+% Memory used [KB]: 1435243
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -184,7 +184,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 231168
+% Memory used [KB]: 245241
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -195,22 +195,9 @@
 % Termination reason: Refutation not found, incomplete strategy
 
 % Memory used [KB]: 7291
-% Time elapsed: 0.054 s
+% Time elapsed: 0.050 s
 % ------------------------------
 % ------------------------------
 % lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on nia_cubes_func
-Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/cubes/nia_cubes_func.smt2
-Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/cubes/nia_cubes_func.smt2
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 1957068
-% Time elapsed: 58.700 s
-% ------------------------------
-% ------------------------------
-% Proof not found in time 300.131 s
-% SZS status Timeout for nia_cubes_func
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/NIA/invariants/cubes/nia_cubes_func.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/NIA/invariants/cubes/nia_cubes_func.smt2

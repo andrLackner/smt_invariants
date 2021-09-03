@@ -1,11 +1,7 @@
 #!/bin/bash
 
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-BENCHMARKS_DIR="$SCRIPT_DIR/NIA/invariants/**/*.smt2"
-BENCHMARKS=$(find $BENCHMARKS_DIR)
-
 PROVER="z3"
-FLAGS="-smt2 -T:300"
+FLAGS="-smt2 -T:300 -st"
 
 trap ctrl_c INT
 
@@ -15,8 +11,8 @@ function ctrl_c() {
 }
 
 
-if [ "$#" -ne 2 ]; then
-    echo "Usage: compute PROVER OUTDIR"
+if [ "$#" -lt 2 ]; then
+    echo "Usage: compute PROVER OUTDIR [benchmark]"
     exit 1
 fi
 
@@ -28,12 +24,25 @@ if [ "$1" = "vampire" ]; then
 elif [ "$1" = "vampireZ3" ]; then
   PROVER="vampireZ3"
   FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp -t 5m"
-elif [ "$1" = "vampireZ3_v2" ]; then
+elif [ "$1" = "vampireZ3_dev" ]; then
+  PROVER="vampire_dev"
+  FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp -polymul force -t 5m"
+elif [ "$1" = "vampireZ3_ind" ]; then
   PROVER="vampireZ3"
   FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp --schedule induction -t 5m"
 fi 
 
 mkdir -p $OUTDIR
+
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+BENCHMARKS_DIR="$SCRIPT_DIR/NIA/invariants"
+
+if [ "$#" -eq 3 ]; then
+  BENCHMARKS=$(find $3 -type f -name "*.smt2") 
+else
+  BENCHMARKS=$(find $BENCHMARKS_DIR -type f -name "*.smt2")
+fi
 
 for BENCHMARK in $BENCHMARKS 
   do

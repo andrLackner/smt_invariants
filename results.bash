@@ -7,12 +7,15 @@ if [ "$#" -ne 3 ]; then
 fi
 
 
-if [ "$1" = "vampire" ]; then
-  COL="vampire"
+if [ "$1" = "vampireZ3" ]; then
+  COL="vampireZ3"
   EXT="_vampireZ3"
-elif [ "$1" = "vampire_v2" ]; then
-  COL="vampire_v2"
+elif [ "$1" = "vampireZ3_ind" ]; then
+  COL="vampireZ3_ind"
   EXT="_vampireZ3"
+elif [ "$1" = "vampireZ3_dev" ]; then
+  COL="vampireZ3_dev"
+  EXT="_vampire_dev"
 elif [ "$1" = "z3" ]; then
   COL="z3"
   EXT="_z3"
@@ -27,7 +30,7 @@ DB_DIR=$3
 BENCHMARKS=$(find $RESULT_DIR)
 
 TABLE="\"results\""
-COLS="(\"test_id\", \"type\", \"z3\", \"vampire\", \"vampire_v2\")"
+COLS="(\"test_id\", \"type\", \"z3\", \"vampireZ3\", \"vampireZ3_ind\", \"vampireZ3_dev\")"
 
 
 for BENCHMARK in $BENCHMARKS 
@@ -44,14 +47,14 @@ for BENCHMARK in $BENCHMARKS
     if [[ $BENCHMARK_ID == *"_func"* ]]; then
       TYPE="func"
     fi
-    sqlite3 $DB_DIR "INSERT INTO $TABLE $COLS VALUES ('$BENCHMARK_ID', '$TYPE', 'unknown', 'unknown', 'unknown')"
+    sqlite3 $DB_DIR "INSERT INTO $TABLE $COLS VALUES ('$BENCHMARK_ID', '$TYPE', 'unknown', 'unknown', 'unknown', 'unknown')"
     echo "[INFO] DONE"
   fi
 
   STATUS="unknown"
   LINES=$(tr -d '\0' <$BENCHMARK)
   while IFS= read -r LINE; do
-    if [[ $COL == "vampire" ]] || [[ $COL == "vampire_v2" ]]; then
+    if [[ $COL == "vampireZ3" ]] || [[ $COL == "vampireZ3_ind" ]] || [[ $COL == "vampireZ3_dev" ]]; then
       if [[ $LINE == "% Termination reason: Refutation" ]]; then
         STATUS="solved"
         break

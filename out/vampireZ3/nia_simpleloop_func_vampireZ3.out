@@ -7,7 +7,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 15479
+% Memory used [KB]: 14711
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -19,7 +19,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 20596
+% Memory used [KB]: 20852
 % Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
@@ -31,7 +31,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 11769
+% Memory used [KB]: 11641
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -43,7 +43,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17654
+% Memory used [KB]: 17014
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -55,7 +55,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 16247
+% Memory used [KB]: 15991
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -67,7 +67,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 21236
+% Memory used [KB]: 20980
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -80,7 +80,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 15607
+% Memory used [KB]: 15351
 % Time elapsed: 0.500 s
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on nia_simpleloop_func
 % Time limit reached!
@@ -114,7 +114,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 20340
+% Memory used [KB]: 20212
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -138,7 +138,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 424854
+% Memory used [KB]: 416666
 % Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
@@ -161,7 +161,7 @@ Memory limit exceeded!
 % Termination phase: Saturation
 
 % Memory used [KB]: 2788995
-% Time elapsed: 66.343 s
+% Time elapsed: 67.644 s
 % ------------------------------
 % ------------------------------
 % dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on nia_simpleloop_func
@@ -172,7 +172,7 @@ Memory limit exceeded!
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 819773
+% Memory used [KB]: 854442
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -184,7 +184,7 @@ Memory limit exceeded!
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 324941
+% Memory used [KB]: 223493
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -195,7 +195,7 @@ Memory limit exceeded!
 % Termination reason: Refutation not found, incomplete strategy
 
 % Memory used [KB]: 7036
-% Time elapsed: 0.026 s
+% Time elapsed: 0.032 s
 % ------------------------------
 % ------------------------------
 % lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on nia_simpleloop_func

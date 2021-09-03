@@ -1,0 +1,72 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on eucliddiv_inv1_len1_3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 13304
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on eucliddiv_inv1_len1_3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 19957
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on eucliddiv_inv1_len1_3
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for eucliddiv_inv1_len1_3
+% SZS output start Proof for eucliddiv_inv1_len1_3
+1. ? [X2 : $int,X1 : $int,X0 : $int] : (0 = $sum($product($uminus(1),y00),X2) & 0 = $sum($difference($difference(X1,r00),$product(q00,y00)),$product(X0,y00)) & (~0 = $sum($product($uminus(1),y00),y00) | ~0 = $sum($difference($difference($difference(X1,y00),r00),$product(q00,y00)),$product($sum(X0,1),y00)) | ~0 = $product($product($product($product($product($uminus(8),$sum(X0,1)),$difference(X1,y00)),$difference(X1,y00)),y00),$sum($product($uminus(1),y00),y00)))) [input]
+2. ? [X2 : $int,X1 : $int,X0 : $int] : (0 = $sum($product($uminus(1),y00),X2) & 0 = $sum($sum($difference(X1,r00),$uminus($product(q00,y00))),$product(X0,y00)) & (~0 = $sum($product($uminus(1),y00),y00) | ~0 = $sum($sum($difference($difference(X1,y00),r00),$uminus($product(q00,y00))),$product($sum(X0,1),y00)) | ~0 = $product($product($product($product($product($uminus(8),$sum(X0,1)),$sum(X1,$uminus(y00))),$sum(X1,$uminus(y00))),y00),$sum($product($uminus(1),y00),y00)))) [theory normalization 1]
+5. $sum(X0,0) = X0 [theory axiom 144]
+7. 0 = $sum(X0,$uminus(X0)) [theory axiom 147]
+21. ? [X2 : $int,X1 : $int,X0 : $int] : (0 = $sum($product($uminus(1),y00),X2) & 0 = $sum($sum($sum(X1,$uminus(r00)),$uminus($product(q00,y00))),$product(X0,y00)) & (~0 = $sum($product($uminus(1),y00),y00) | ~0 = $sum($sum($sum($difference(X1,y00),$uminus(r00)),$uminus($product(q00,y00))),$product($sum(X0,1),y00)) | ~0 = $product($product($product($product($product($uminus(8),$sum(X0,1)),$sum(X1,$uminus(y00))),$sum(X1,$uminus(y00))),y00),$sum($product($uminus(1),y00),y00)))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum($product($uminus(1),y00),X0) & 0 = $sum($sum($sum(X1,$uminus(r00)),$uminus($product(q00,y00))),$product(X2,y00)) & (~0 = $sum($product($uminus(1),y00),y00) | ~0 = $sum($sum($sum($difference(X1,y00),$uminus(r00)),$uminus($product(q00,y00))),$product($sum(X2,1),y00)) | ~0 = $product($product($product($product($product($uminus(8),$sum(X2,1)),$sum(X1,$uminus(y00))),$sum(X1,$uminus(y00))),y00),$sum($product($uminus(1),y00),y00)))) [rectify 21]
+23. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum($product($uminus(1),y00),X0) & 0 = $sum($sum($sum(X1,$uminus(r00)),$uminus($product(q00,y00))),$product(X2,y00)) & (0 != $sum($product($uminus(1),y00),y00) | 0 != $sum($sum($sum($difference(X1,y00),$uminus(r00)),$uminus($product(q00,y00))),$product($sum(X2,1),y00)) | 0 != $product($product($product($product($product($uminus(8),$sum(X2,1)),$sum(X1,$uminus(y00))),$sum(X1,$uminus(y00))),y00),$sum($product($uminus(1),y00),y00)))) [flattening 22]
+24. 0 != $product($product($product($product($product($uminus(8),$sum(sK2,1)),$sum(sK1,$uminus(y00))),$sum(sK1,$uminus(y00))),y00),$sum($product($uminus(1),y00),y00)) | 0 != $sum($sum($sum($difference(sK1,y00),$uminus(r00)),$uminus($product(q00,y00))),$product($sum(sK2,1),y00)) | 0 != $sum($product($uminus(1),y00),y00) [cnf transformation 23]
+25. 0 = $sum($sum($sum(sK1,$uminus(r00)),$uminus($product(q00,y00))),$product(sK2,y00)) [cnf transformation 23]
+26. 0 = $sum($product($uminus(1),y00),sK0) [cnf transformation 23]
+28. 0 != $product($product($product($product($product(-8,$sum(sK2,1)),$sum(sK1,$uminus(y00))),$sum(sK1,$uminus(y00))),y00),$sum($product(-1,y00),y00)) | 0 != $sum($sum($sum($difference(sK1,y00),$uminus(r00)),$uminus($product(q00,y00))),$product($sum(sK2,1),y00)) | 0 != $sum($product(-1,y00),y00) [evaluation 24]
+29. 0 != $product(-8,$sum($uminus($product(sK2,$product(y00,y00))),$sum($uminus($product(y00,y00)),$sum($product($product(sK2,sK1),$product(y00,y00)),$sum($product(sK1,$product(y00,y00)),$sum($product(sK2,$product(y00,y00)),$sum($product(y00,y00),$sum($uminus($product($product(sK2,sK1),$product(y00,y00))),$uminus($product(sK1,$product(y00,y00))))))))))) | 0 != $sum($sum($product(sK2,y00),y00),$sum($uminus($product(y00,q00)),$sum($uminus(r00),$difference(sK1,y00)))) | 0 != $sum(y00,$uminus(y00)) [polynomial multiplication 28]
+30. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$sum($uminus($product(sK1,y00)),$sum($product(sK2,y00),$sum($uminus($product(sK2,y00)),$sum(y00,$uminus(y00))))))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) | 0 != $sum(y00,$uminus(y00)) [polynomial multiplication 29]
+31. 0 = $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($product(sK2,y00),sK1))) [polynomial multiplication 25]
+32. 0 = $sum($product(-1,y00),sK0) [evaluation 26]
+33. 0 = $sum(sK0,$uminus(y00)) [polynomial multiplication 32]
+34. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$sum($uminus($product(sK1,y00)),$sum($product(sK2,y00),$sum($uminus($product(sK2,y00)),0))))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) | 0 != $sum(y00,$uminus(y00)) [inner rewriting 30]
+36. 1 <=> 0 = $sum(sK0,$uminus(y00)) [avatar definition]
+39. 1 [avatar split clause 33,36]
+41. 2 <=> 0 = $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($product(sK2,y00),sK1))) [avatar definition]
+44. 2 [avatar split clause 31,41]
+47. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$sum($uminus($product(sK1,y00)),$sum($product(sK2,y00),$sum($uminus($product(sK2,y00)),0))))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [subsumption resolution 34,7]
+48. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$sum($uminus($product(sK1,y00)),$sum($product(sK2,y00),$uminus($product(sK2,y00)))))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 47,5]
+49. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$sum($uminus($product(sK1,y00)),0))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 48,7]
+50. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),$sum($product(sK1,y00),$uminus($product(sK1,y00)))))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 49,5]
+51. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$sum($uminus($product($product(sK2,sK1),y00)),0))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 50,7]
+52. 0 != $product(-8,$sum($product($product(sK2,sK1),y00),$uminus($product($product(sK2,sK1),y00)))) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 51,5]
+53. 0 != $product(-8,0) | 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [forward demodulation 52,7]
+54. 0 != $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [evaluation 53]
+56. 3 <=> 0 = $sum($uminus($product(y00,q00)),$sum($uminus(r00),$sum($difference(sK1,y00),$sum($product(sK2,y00),y00)))) [avatar definition]
+59. ~3 [avatar split clause 54,56]
+60. $false [avatar sat refutation 39,44,59]
+% SZS output end Proof for eucliddiv_inv1_len1_3
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Refutation
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.034 s
+% ------------------------------
+% ------------------------------
+% Success in time 1.539 s

@@ -1,0 +1,61 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1_87 on nia_qdreq
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for nia_qdreq
+% SZS output start Proof for nia_qdreq
+1. 0 = $product($sum(x,1),$sum(x,1)) [input]
+2. ~x = $uminus(1) [input]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
+4. $sum(X0,$sum(X1,X2)) = $sum($sum(X0,X1),X2) [theory axiom 142]
+5. $sum(X0,0) = X0 [theory axiom 143]
+7. 0 = $sum(X0,$uminus(X0)) [theory axiom 146]
+13. $uminus($uminus(X0)) = X0 [theory axiom 154]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 141]
+15. $product(X0,$product(X1,X2)) = $product($product(X0,X1),X2) [theory axiom 142]
+16. $product(X0,1) = X0 [theory axiom 143]
+17. 0 = $product(X0,0) [theory axiom 155]
+18. $product(X0,$sum(X1,X2)) = $sum($product(X0,X1),$product(X0,X2)) [theory axiom 156]
+19. 0 = X0 | $product(X0,X2) != X1 | $product(X0,X3) != X1 | X2 = X3 [theory axiom 157]
+21. x != $uminus(1) [flattening 2]
+22. 0 = $product($sum(x,1),$sum(x,1)) [cnf transformation 1]
+23. x != $uminus(1) [cnf transformation 21]
+24. $product(X0,X2) != $product(X0,X3) | 0 = X0 | X2 = X3 [equality resolution 19]
+25. x != -1 [evaluation 23]
+26. 0 = $product($sum(1,x),$sum(1,x)) [forward demodulation 22,3]
+28. $sum(0,X0) = X0 [superposition 3,5]
+39. 0 = $product(0,X1) [superposition 14,17]
+182. $product($sum(1,x),$product($sum(1,x),X14)) = $product(0,X14) [superposition 15,26]
+193. 0 = $product($sum(1,x),$product($sum(1,x),X14)) [forward demodulation 182,39]
+208. $product(X0,$sum(1,X1)) = $sum(X0,$product(X0,X1)) [superposition 18,16]
+250. 0 != $product(X2,X3) | 0 = X2 | 0 = X3 [superposition 24,17]
+267. 1 <=> 0 = $sum(1,x) [avatar definition]
+268. 0 != $sum(1,x) <- (~1) [avatar component clause 267]
+269. 0 = $sum(1,x) <- (1) [avatar component clause 267]
+593. $sum(1,$sum(x,X12)) = $sum(0,X12) <- (1) [superposition 4,269]
+615. $sum(1,$sum(x,X12)) = X12 <- (1) [forward demodulation 593,28]
+701. $sum(1,0) = $uminus(x) <- (1) [superposition 615,7]
+711. 1 = $uminus(x) <- (1) [evaluation 701]
+740. x = $uminus(1) <- (1) [superposition 13,711]
+743. x = -1 <- (1) [evaluation 740]
+745. $false <- (1) [subsumption resolution 743,25]
+746. ~1 [avatar contradiction clause 745]
+1150. $product($sum(1,x),$sum(1,$sum(1,x))) = $sum($sum(1,x),0) [superposition 208,26]
+1184. $sum(1,x) = $product($sum(1,x),$sum(2,x)) [evaluation 1150]
+1272. 0 != 0 | 0 = $sum(1,x) | 0 = $product($sum(1,x),X18) [superposition 250,193]
+1275. 0 = $sum(1,x) | 0 = $product($sum(1,x),X18) [trivial inequality removal 1272]
+1280. 0 = $product($sum(1,x),X18) <- (~1) [subsumption resolution 1275,268]
+1290. 0 = $sum(1,x) <- (~1) [backward demodulation 1184,1280]
+1294. $false <- (~1) [subsumption resolution 1290,268]
+1295. 1 [avatar contradiction clause 1294]
+1296. $false [avatar sat refutation 746,1295]
+% SZS output end Proof for nia_qdreq
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 6140
+% Time elapsed: 0.019 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.029 s

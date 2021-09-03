@@ -1,0 +1,66 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on cubes_inv1_len1_2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 14072
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on cubes_inv1_len1_2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 24946
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on cubes_inv1_len1_2
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for cubes_inv1_len1_2
+% SZS output start Proof for cubes_inv1_len1_2
+1. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $difference($sum($uminus(6),X2),$product(6,X3)) & 0 = $sum($sum($difference($difference($difference(4,$product(18,X0)),$product($product(9,X0),X3)),$product(5,X1)),$product(9,X3)),$product(X1,X1)) & 0 = $sum($difference($sum($product($uminus(3),X0),$product(X1,X3)),X1),$product(2,X3)) & 0 = $sum($difference($product($product(3,X3),X3),X1),$product(3,X3)) & (~0 = $difference($sum($sum($uminus(6),X2),6),$product(6,$sum(X3,1))) | ~0 = $sum($sum($difference($difference($difference(4,$product(18,$sum(X0,X1))),$product($product(9,$sum(X0,X1)),$sum(X3,1))),$product(5,$sum(X1,X2))),$product(9,$sum(X3,1))),$product($sum(X1,X2),$sum(X1,X2))) | ~0 = $sum($difference($sum($product($uminus(3),$sum(X0,X1)),$product($sum(X1,X2),$sum(X3,1))),$sum(X1,X2)),$product(2,$sum(X3,1))) | ~0 = $sum($difference($product($product(3,$sum(X3,1)),$sum(X3,1)),$sum(X1,X2)),$product(3,$sum(X3,1))) | ~0 = $product($product($product($product(4,$sum(X1,X2)),$sum(X1,X2)),$sum(X3,1)),$difference($sum($sum($uminus(6),X2),6),$product(6,$sum(X3,1)))))) [input]
+2. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X3))) & 0 = $sum($sum($sum($difference($difference(4,$product(18,X0)),$product($product(9,X0),X3)),$uminus($product(5,X1))),$product(9,X3)),$product(X1,X1)) & 0 = $sum($sum($sum($product($uminus(3),X0),$product(X1,X3)),$uminus(X1)),$product(2,X3)) & 0 = $sum($sum($product($product(3,X3),X3),$uminus(X1)),$product(3,X3)) & (~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1)))) | ~0 = $sum($sum($sum($difference($difference(4,$product(18,$sum(X0,X1))),$product($product(9,$sum(X0,X1)),$sum(X3,1))),$uminus($product(5,$sum(X1,X2)))),$product(9,$sum(X3,1))),$product($sum(X1,X2),$sum(X1,X2))) | ~0 = $sum($sum($sum($product($uminus(3),$sum(X0,X1)),$product($sum(X1,X2),$sum(X3,1))),$uminus($sum(X1,X2))),$product(2,$sum(X3,1))) | ~0 = $sum($sum($product($product(3,$sum(X3,1)),$sum(X3,1)),$uminus($sum(X1,X2))),$product(3,$sum(X3,1))) | ~0 = $product($product($product($product(4,$sum(X1,X2)),$sum(X1,X2)),$sum(X3,1)),$sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1))))))) [theory normalization 1]
+21. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X3))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X0)),$uminus($product($product(9,X0),X3))),$uminus($product(5,X1))),$product(9,X3)),$product(X1,X1)) & 0 = $sum($sum($sum($product($uminus(3),X0),$product(X1,X3)),$uminus(X1)),$product(2,X3)) & 0 = $sum($sum($product($product(3,X3),X3),$uminus(X1)),$product(3,X3)) & (~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1)))) | ~0 = $sum($sum($sum($sum($difference(4,$product(18,$sum(X0,X1))),$uminus($product($product(9,$sum(X0,X1)),$sum(X3,1)))),$uminus($product(5,$sum(X1,X2)))),$product(9,$sum(X3,1))),$product($sum(X1,X2),$sum(X1,X2))) | ~0 = $sum($sum($sum($product($uminus(3),$sum(X0,X1)),$product($sum(X1,X2),$sum(X3,1))),$uminus($sum(X1,X2))),$product(2,$sum(X3,1))) | ~0 = $sum($sum($product($product(3,$sum(X3,1)),$sum(X3,1)),$uminus($sum(X1,X2))),$product(3,$sum(X3,1))) | ~0 = $product($product($product($product(4,$sum(X1,X2)),$sum(X1,X2)),$sum(X3,1)),$sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1))))))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X1))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X3)),$uminus($product($product(9,X3),X1))),$uminus($product(5,X0))),$product(9,X1)),$product(X0,X0)) & 0 = $sum($sum($sum($product($uminus(3),X3),$product(X0,X1)),$uminus(X0)),$product(2,X1)) & 0 = $sum($sum($product($product(3,X1),X1),$uminus(X0)),$product(3,X1)) & (~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1)))) | ~0 = $sum($sum($sum($sum($difference(4,$product(18,$sum(X3,X0))),$uminus($product($product(9,$sum(X3,X0)),$sum(X1,1)))),$uminus($product(5,$sum(X0,X2)))),$product(9,$sum(X1,1))),$product($sum(X0,X2),$sum(X0,X2))) | ~0 = $sum($sum($sum($product($uminus(3),$sum(X3,X0)),$product($sum(X0,X2),$sum(X1,1))),$uminus($sum(X0,X2))),$product(2,$sum(X1,1))) | ~0 = $sum($sum($product($product(3,$sum(X1,1)),$sum(X1,1)),$uminus($sum(X0,X2))),$product(3,$sum(X1,1))) | ~0 = $product($product($product($product(4,$sum(X0,X2)),$sum(X0,X2)),$sum(X1,1)),$sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1))))))) [rectify 21]
+23. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X1))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X3)),$uminus($product($product(9,X3),X1))),$uminus($product(5,X0))),$product(9,X1)),$product(X0,X0)) & 0 = $sum($sum($sum($product($uminus(3),X3),$product(X0,X1)),$uminus(X0)),$product(2,X1)) & 0 = $sum($sum($product($product(3,X1),X1),$uminus(X0)),$product(3,X1)) & (0 != $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1)))) | 0 != $sum($sum($sum($sum($difference(4,$product(18,$sum(X3,X0))),$uminus($product($product(9,$sum(X3,X0)),$sum(X1,1)))),$uminus($product(5,$sum(X0,X2)))),$product(9,$sum(X1,1))),$product($sum(X0,X2),$sum(X0,X2))) | 0 != $sum($sum($sum($product($uminus(3),$sum(X3,X0)),$product($sum(X0,X2),$sum(X1,1))),$uminus($sum(X0,X2))),$product(2,$sum(X1,1))) | 0 != $sum($sum($product($product(3,$sum(X1,1)),$sum(X1,1)),$uminus($sum(X0,X2))),$product(3,$sum(X1,1))) | 0 != $product($product($product($product(4,$sum(X0,X2)),$sum(X0,X2)),$sum(X1,1)),$sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1))))))) [flattening 22]
+25. 0 = $sum($sum($product($product(3,sK1),sK1),$uminus(sK0)),$product(3,sK1)) [cnf transformation 23]
+26. 0 = $sum($sum($sum($product($uminus(3),sK3),$product(sK0,sK1)),$uminus(sK0)),$product(2,sK1)) [cnf transformation 23]
+27. 0 = $sum($sum($sum($sum($difference(4,$product(18,sK3)),$uminus($product($product(9,sK3),sK1))),$uminus($product(5,sK0))),$product(9,sK1)),$product(sK0,sK0)) [cnf transformation 23]
+28. 0 = $sum($sum($uminus(6),sK2),$uminus($product(6,sK1))) [cnf transformation 23]
+34. 0 = $sum($product(3,sK1),$sum($product(3,sK1),$uminus(sK0))) [polynomial multiplication 25]
+35. 0 = $sum($sum($sum($product(-3,sK3),$product(sK0,sK1)),$uminus(sK0)),$product(2,sK1)) [evaluation 26]
+36. 0 = $sum($product(-3,sK3),$sum($product(sK0,sK1),$sum($product(2,sK1),$uminus(sK0)))) [polynomial multiplication 35]
+37. 0 = $sum(sK0,$sum($uminus($product(sK0,5)),$sum($uminus($product(9,$product(sK1,sK3))),$sum($difference(4,$product(18,sK3)),$product(9,sK1))))) [polynomial multiplication 27]
+38. 0 = $sum($uminus($product(sK0,5)),$sum($uminus($product(9,$product(sK1,sK3))),$sum($difference(4,$product(18,sK3)),$sum($product(9,sK1),sK0)))) [polynomial multiplication 37]
+39. 0 = $sum($sum(-6,sK2),$uminus($product(6,sK1))) [evaluation 28]
+40. 0 = $sum($product(6,$product(sK1,-1)),$sum(sK2,-6)) [polynomial multiplication 39]
+41. 0 = $sum($product(-6,sK1),$sum(sK2,-6)) [evaluation 40]
+43. 1 <=> 0 = $sum($product(-6,sK1),$sum(sK2,-6)) [avatar definition]
+46. 1 [avatar split clause 41,43]
+48. 2 <=> 0 = $sum($product(3,sK1),$sum($product(3,sK1),$uminus(sK0))) [avatar definition]
+51. 2 [avatar split clause 34,48]
+53. 3 <=> 0 = $sum($product(-3,sK3),$sum($product(sK0,sK1),$sum($product(2,sK1),$uminus(sK0)))) [avatar definition]
+56. 3 [avatar split clause 36,53]
+58. 4 <=> 0 = $sum($uminus($product(sK0,5)),$sum($uminus($product(9,$product(sK1,sK3))),$sum($difference(4,$product(18,sK3)),$sum($product(9,sK1),sK0)))) [avatar definition]
+61. 4 [avatar split clause 38,58]
+62. $false [avatar sat refutation 46,51,56,61]
+% SZS output end Proof for cubes_inv1_len1_2
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Refutation
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.060 s
+% ------------------------------
+% ------------------------------
+% Success in time 1.534 s

@@ -50,6 +50,29 @@
     )
 )
 
+(assert
+    (=>
+        (forall
+            ((i Int))
+            (=>
+                (>= i 0)
+                (=>
+                    (= (i2 i) 0)
+                    (= (i2 (+ i 1)) 0)
+                )
+            )
+        )
+        (forall
+            ((i Int))
+            (=>
+                (>= i 0)
+                (= (i2 i) 0)
+            )
+        )
+    )
+)
+
+
 (check-sat)
 (get-proof)
 (exit)

@@ -1,0 +1,45 @@
+// First variant
+newb:freire2_inv#0_len#1_1
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+addinv:$4
+ldloop:freire2
+push:$5
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/freire2/freire2_inv#0_len#1_1.smt2
+
+// Second variant
+newb:freire2_inv#0_len#1_2
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+addinv:$4
+ldloop:freire2
+push:$6
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/freire2/freire2_inv#0_len#1_2.smt2
+
+// Third variant
+newb:freire2_inv#0_len#1_3
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+addinv:$4
+ldloop:freire2
+push:$7
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/freire2/freire2_inv#0_len#1_3.smt2
+

@@ -7,7 +7,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17654
+% Memory used [KB]: 28784
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -19,7 +19,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 22003
+% Memory used [KB]: 56544
 % Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
@@ -31,7 +31,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 12409
+% Memory used [KB]: 12920
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -43,7 +43,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 23411
+% Memory used [KB]: 20596
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -55,7 +55,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 23794
+% Memory used [KB]: 20980
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -67,7 +67,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17910
+% Memory used [KB]: 16375
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -80,7 +80,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17654
+% Memory used [KB]: 28912
 % Time elapsed: 0.500 s
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on nia_eucliddiv_func_inv2
 % Time limit reached!
@@ -90,7 +90,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17526
+% Memory used [KB]: 28784
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -102,7 +102,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 21492
+% Memory used [KB]: 28528
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -114,7 +114,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 20084
+% Memory used [KB]: 25969
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -126,7 +126,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 17654
+% Memory used [KB]: 28912
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -138,7 +138,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 240124
+% Memory used [KB]: 228098
 % Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
@@ -160,7 +160,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 2478125
+% Memory used [KB]: 1043650
 % Time elapsed: 78.200 s
 % ------------------------------
 % ------------------------------
@@ -172,7 +172,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 1042243
+% Memory used [KB]: 1205737
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -184,7 +184,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 1159042
+% Memory used [KB]: 236414
 % Time elapsed: 39.200 s
 % ------------------------------
 % ------------------------------
@@ -195,22 +195,9 @@
 % Termination reason: Refutation not found, incomplete strategy
 
 % Memory used [KB]: 7164
-% Time elapsed: 0.025 s
+% Time elapsed: 0.030 s
 % ------------------------------
 % ------------------------------
 % lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on nia_eucliddiv_func_inv2
-Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/eucliddiv/nia_eucliddiv_func_inv2.smt2
-Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/examples/NIA/invariants/eucliddiv/nia_eucliddiv_func_inv2.smt2
-% Time limit reached!
-% ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
-% Termination reason: Time limit
-% Termination phase: Saturation
-
-% Memory used [KB]: 2028069
-% Time elapsed: 59.100 s
-% ------------------------------
-% ------------------------------
-% Proof not found in time 300.13 s
-% SZS status Timeout for nia_eucliddiv_func_inv2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/NIA/invariants/eucliddiv/nia_eucliddiv_func_inv2.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/NIA/invariants/eucliddiv/nia_eucliddiv_func_inv2.smt2

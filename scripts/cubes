@@ -1,0 +1,41 @@
+// First variant
+newb:cubes_inv#0_len#1_1
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+ldloop:cubes
+push:$4
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/cubes/cubes_inv#0_len#1_1.smt2
+
+// Second variant
+newb:cubes_inv#0_len#1_2
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+ldloop:cubes
+push:$5
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/cubes/cubes_inv#0_len#1_2.smt2
+
+// Third variant
+newb:cubes_inv#0_len#1_3
+addinv:$0
+addinv:$1
+addinv:$2
+addinv:$3
+ldloop:cubes
+push:$6
+push:$#2
+denorm
+mult
+addinv
+outv1:denorm/cubes/cubes_inv#0_len#1_3.smt2
