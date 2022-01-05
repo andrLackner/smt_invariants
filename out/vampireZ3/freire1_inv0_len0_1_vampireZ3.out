@@ -1,0 +1,40 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on freire1_inv0_len0_1
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for freire1_inv0_len0_1
+% SZS output start Proof for freire1_inv0_len0_1
+1. ? [X1 : $int,X0 : $int] : (0 = $difference($difference($sum($sum($sum($product($uminus(1),X0),r00),$product(X0,X0)),$product(2,X1)),$product(2,x00)),$product(r00,r00)) & ~0 = $difference($difference($sum($sum($sum($product($uminus(1),$sum(X0,1)),r00),$product($sum(X0,1),$sum(X0,1))),$product(2,$difference(X1,X0))),$product(2,x00)),$product(r00,r00))) [input]
+2. ? [X1 : $int,X0 : $int] : (0 = $sum($difference($sum($sum($sum($product($uminus(1),X0),r00),$product(X0,X0)),$product(2,X1)),$product(2,x00)),$uminus($product(r00,r00))) & ~0 = $sum($difference($sum($sum($sum($product($uminus(1),$sum(X0,1)),r00),$product($sum(X0,1),$sum(X0,1))),$product(2,$difference(X1,X0))),$product(2,x00)),$uminus($product(r00,r00)))) [theory normalization 1]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
+21. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($sum($sum($sum($product($uminus(1),X0),r00),$product(X0,X0)),$product(2,X1)),$uminus($product(2,x00))),$uminus($product(r00,r00))) & ~0 = $sum($sum($sum($sum($sum($product($uminus(1),$sum(X0,1)),r00),$product($sum(X0,1),$sum(X0,1))),$product(2,$difference(X1,X0))),$uminus($product(2,x00))),$uminus($product(r00,r00)))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum($sum($sum($product($uminus(1),X1),r00),$product(X1,X1)),$product(2,X0)),$uminus($product(2,x00))),$uminus($product(r00,r00))) & ~0 = $sum($sum($sum($sum($sum($product($uminus(1),$sum(X1,1)),r00),$product($sum(X1,1),$sum(X1,1))),$product(2,$difference(X0,X1))),$uminus($product(2,x00))),$uminus($product(r00,r00)))) [rectify 21]
+23. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum($sum($sum($product($uminus(1),X1),r00),$product(X1,X1)),$product(2,X0)),$uminus($product(2,x00))),$uminus($product(r00,r00))) & 0 != $sum($sum($sum($sum($sum($product($uminus(1),$sum(X1,1)),r00),$product($sum(X1,1),$sum(X1,1))),$product(2,$difference(X0,X1))),$uminus($product(2,x00))),$uminus($product(r00,r00)))) [flattening 22]
+24. 0 != $sum($sum($sum($sum($sum($product($uminus(1),$sum(sK1,1)),r00),$product($sum(sK1,1),$sum(sK1,1))),$product(2,$difference(sK0,sK1))),$uminus($product(2,x00))),$uminus($product(r00,r00))) [cnf transformation 23]
+25. 0 = $sum($sum($sum($sum($sum($product($uminus(1),sK1),r00),$product(sK1,sK1)),$product(2,sK0)),$uminus($product(2,x00))),$uminus($product(r00,r00))) [cnf transformation 23]
+27. 0 != $sum($sum($sum($sum($sum($product(-1,$sum(sK1,1)),r00),$product($sum(sK1,1),$sum(sK1,1))),$product(2,$difference(sK0,sK1))),$uminus($product(2,x00))),$uminus($product(r00,r00))) [evaluation 24]
+28. 0 = $sum($sum($sum($sum($sum($product(-1,sK1),r00),$product(sK1,sK1)),$product(2,sK0)),$uminus($product(2,x00))),$uminus($product(r00,r00))) [evaluation 25]
+730. 0 = $sum($sum($uminus($product(2,x00)),$sum($sum($sum($product(-1,sK1),r00),$product(sK1,sK1)),$product(2,sK0))),$uminus($product(r00,r00))) [forward demodulation 28,3]
+731. 0 = $sum($sum($uminus($product(2,x00)),$sum($product(2,sK0),$sum($sum($product(-1,sK1),r00),$product(sK1,sK1)))),$uminus($product(r00,r00))) [forward demodulation 730,3]
+732. 0 = $sum($sum($uminus($product(2,x00)),$sum($product(2,sK0),$sum($product(sK1,sK1),$sum($product(-1,sK1),r00)))),$uminus($product(r00,r00))) [forward demodulation 731,3]
+733. 0 = $sum($sum($uminus($product(2,x00)),$sum($product(2,sK0),$sum($product(sK1,sK1),$sum(r00,$product(-1,sK1))))),$uminus($product(r00,r00))) [forward demodulation 732,3]
+784. 1 <=> 0 = $sum($sum($uminus($product(2,x00)),$sum($product(2,sK0),$sum($product(sK1,sK1),$sum(r00,$product(-1,sK1))))),$uminus($product(r00,r00))) [avatar definition]
+787. 1 [avatar split clause 733,784]
+886. 0 != $sum($sum($uminus($product(2,x00)),$sum($sum($sum($product(-1,$sum(sK1,1)),r00),$product($sum(sK1,1),$sum(sK1,1))),$product(2,$difference(sK0,sK1)))),$uminus($product(r00,r00))) [forward demodulation 27,3]
+887. 0 != $sum($sum($uminus($product(2,x00)),$sum($product(2,$difference(sK0,sK1)),$sum($sum($product(-1,$sum(sK1,1)),r00),$product($sum(sK1,1),$sum(sK1,1))))),$uminus($product(r00,r00))) [forward demodulation 886,3]
+888. 0 != $sum($sum($uminus($product(2,x00)),$sum($product(2,$difference(sK0,sK1)),$sum($product($sum(sK1,1),$sum(sK1,1)),$sum($product(-1,$sum(sK1,1)),r00)))),$uminus($product(r00,r00))) [forward demodulation 887,3]
+889. 0 != $sum($sum($uminus($product(2,x00)),$sum($product(2,$difference(sK0,sK1)),$sum($product($sum(sK1,1),$sum(sK1,1)),$sum(r00,$product(-1,$sum(sK1,1)))))),$uminus($product(r00,r00))) [forward demodulation 888,3]
+890. 0 != $sum($sum($uminus($product(2,x00)),$sum($product(2,$difference(sK0,sK1)),$sum($product($sum(1,sK1),$sum(1,sK1)),$sum(r00,$product(-1,$sum(1,sK1)))))),$uminus($product(r00,r00))) [forward demodulation 889,3]
+939. 2 <=> 0 = $sum($sum($uminus($product(2,x00)),$sum($product(2,$difference(sK0,sK1)),$sum($product($sum(1,sK1),$sum(1,sK1)),$sum(r00,$product(-1,$sum(1,sK1)))))),$uminus($product(r00,r00))) [avatar definition]
+942. ~2 [avatar split clause 890,939]
+943. $false [avatar sat refutation 787,942]
+% SZS output end Proof for freire1_inv0_len0_1
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 7547
+% Time elapsed: 0.048 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.057 s

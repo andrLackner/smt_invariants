@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ "$#" -ne 3 ]; then
   echo "Usage: results PROVER RESULTDIR DATABASE"
   exit 2
@@ -9,9 +8,6 @@ fi
 
 if [ "$1" = "vampireZ3" ]; then
   COL="vampireZ3"
-  EXT="_vampireZ3"
-elif [ "$1" = "vampireZ3_ind" ]; then
-  COL="vampireZ3_ind"
   EXT="_vampireZ3"
 elif [ "$1" = "vampireZ3_dev" ]; then
   COL="vampireZ3_dev"
@@ -29,32 +25,37 @@ RESULT_DIR="$2/*.out"
 DB_DIR=$3
 BENCHMARKS=$(find $RESULT_DIR)
 
-TABLE="\"results\""
-COLS="(\"test_id\", \"type\", \"z3\", \"vampireZ3\", \"vampireZ3_ind\", \"vampireZ3_dev\")"
+TABLE="\"polymul\""
+COLS="(\"test_id\", \"len\", \"benchmark_base\", \"z3\", \"vampireZ3\", \"vampireZ3_dev\")"
 
 
 for BENCHMARK in $BENCHMARKS 
   do
   BENCHMARK_NAME=$(basename $BENCHMARK)
   BENCHMARK_ID="${BENCHMARK_NAME%$EXT.*}"
-  
-  SEL_QUERY="SELECT * FROM \"results\" WHERE \"test_id\"='$BENCHMARK_ID'"
+  LEN=0
+
+  if [[ $BENCHMARK_ID =~ ^(.*)_inv[0-9]+_len([0-9]+)_.*$ ]]; then
+    BENCHMARK_BASE=${BASH_REMATCH[1]}
+    LEN=${BASH_REMATCH[2]}
+  else
+    break
+  fi
+
+  SEL_QUERY="SELECT * FROM $TABLE WHERE \"test_id\"='$BENCHMARK_ID'"
+
   RESULT=$(sqlite3 $DB_DIR "$SEL_QUERY")
 
   if [[ $RESULT == "" ]]; then
     echo "[INFO] NO DB-ENTRY FOR \"$BENCHMARK_ID\": CREATING IT..."
-    TYPE="simple"
-    if [[ $BENCHMARK_ID == *"_func"* ]]; then
-      TYPE="func"
-    fi
-    sqlite3 $DB_DIR "INSERT INTO $TABLE $COLS VALUES ('$BENCHMARK_ID', '$TYPE', 'unknown', 'unknown', 'unknown', 'unknown')"
+    sqlite3 $DB_DIR "INSERT INTO $TABLE $COLS VALUES ('$BENCHMARK_ID', '$LEN', '$BENCHMARK_BASE', 'unknown', 'unknown', 'unknown')"
     echo "[INFO] DONE"
   fi
 
-  STATUS="unknown"
+  STATUS="timeout"
   LINES=$(tr -d '\0' <$BENCHMARK)
   while IFS= read -r LINE; do
-    if [[ $COL == "vampireZ3" ]] || [[ $COL == "vampireZ3_ind" ]] || [[ $COL == "vampireZ3_dev" ]]; then
+    if [[ $COL == "vampireZ3" ]] || [[ $COL == "vampireZ3_dev" ]]; then
       if [[ $LINE == "% Termination reason: Refutation" ]]; then
         STATUS="solved"
         break
@@ -62,9 +63,6 @@ for BENCHMARK in $BENCHMARKS
         STATUS="solved"
         break
       elif [[ $LINE == *"Proof not found"* ]]; then
-        STATUS="timeout"
-        break
-      else
         STATUS="timeout"
         break
       fi
@@ -78,13 +76,11 @@ for BENCHMARK in $BENCHMARKS
       elif [[ $LINE == *"sat"* ]]; then
         STATUS="err"
         break
-      else 
-        STATUS="timeout"
-        break
       fi
     fi
   done <<< "$LINES"
   
+
   sqlite3 $DB_DIR "UPDATE $TABLE SET \"$COL\"='$STATUS' WHERE \"test_id\"='$BENCHMARK_ID'"
 
 done
